@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 nav {
 	margin: 10px auto 0;
    
@@ -74,10 +75,30 @@ nav .start-feedback, a:nth-child(5):hover~.animation {
 
 body {
 	font-size: 12px;
-	font-family: sans-serif;
 	background: #b8d1ea;
 }
-
+#shopping-cart{
+	font-size:35px;
+	cursor: pointer;
+  z-index:10001;
+}
+p{
+	font-size:25px;
+}
+.btn{
+	background-color:#34495e;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+	margin-left:5px;
+}
+.btn:hover{
+	transform: scale(1.2);
+}
  
 
 

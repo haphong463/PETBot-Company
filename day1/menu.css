@@ -88,7 +88,7 @@ nav .start-feedback, a:nth-child(5):hover~.animation {
   z-index:10001;
 }
 p{
-	font-size:25px;
+	font-size:15px;
 }
 .btn{
 	background-color:#34495e;
@@ -105,7 +105,6 @@ p{
 	transform: scale(1.2);
 }
 
- 
 
 
 

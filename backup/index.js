@@ -38,3 +38,22 @@ function showSlides(n) {
  }
 // end slideshow
 
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+let toggle = button => {
+    let element = document.getElementById("myul");
+    let hidden = element.getAttribute("hidden");
+
+    if (hidden) {
+       element.removeAttribute("hidden");
+       button.innerText = "- What is PET plastic?";
+    } else {
+       element.setAttribute("hidden", "hidden");
+       button.innerText = "+ What is PET plastic?";
+    }
+  }
+  let searchForm = document.querySelector('.search-form');
+
+  document.querySelector('#search-btn').onclick = () =>{
+      searchForm.classList.toggle('active');
+  }

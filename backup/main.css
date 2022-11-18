@@ -9,7 +9,7 @@
 :root{
   --bg-color: #222327;
   --text-color: #fff;
-  --main-color: #947c11;
+  --main-color: #b6970e;
   --border:.1rem solid rgba(255,255,255,.3);
 }
 body{
@@ -188,12 +188,12 @@ header .main div:hover, #menu-icon:hover{
     margin-right: auto;
     margin-left: auto;
 }
-.about{
+.about_intro{
 	width: 100%;
 	padding: 100px 0px;
 	background-color: #191919;
 }
-.about img{
+.about_intro img{
 	height: auto;
 	width: 50%;
 }
@@ -310,7 +310,8 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #24262b;
+  margin-top:150px;
+	background-color: var(--bg-color);
     padding: 70px 0;
 }
 .footer-col{
@@ -440,3 +441,5 @@ ul{
     font-weight: lighter;
     font-size: 1.5rem;
 }
+
+

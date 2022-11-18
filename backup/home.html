@@ -19,7 +19,7 @@
     
 <!-- header -->
     <header>
-        <a href="#home" class="logo"><img src="/backup/image/logo.png" width="170"></a>
+        <a href="#home" class="logo"><img src="/backup/image/logo.png" width="120"></a>
 
         <ul class="navbar">
              <li><a href="#" class="active">Home</a></li>
@@ -31,7 +31,8 @@
         
         <div class="main">
           <div class="fas fa-search" id="search-btn" style="font-size:25px;"></div>
-          <div class="bx bx-cart" style="font-size:30px;"></div>
+          <div class="bx bx-cart" id="cart-btn" style="font-size:34px;"></div>
+          <div class="bx bx-user" style="font-size:30px;"></div>
           <div class="bx bx-menu" id="menu-icon"></div>
         </div>
 
@@ -39,6 +40,7 @@
           <input type="search" id="search-box" placeholder="search here...">
           <label for="search-box" class="fas fa-search"></label>
       </div>
+
     </header>
 <!-- end header -->
 
@@ -60,7 +62,7 @@
         </div>
         
         <div class="mySlides fade">
-          <div class="numbertext">3 / 6</div>
+          <div class="numbertext">3 / 6</div> 
           <img src="/backup/image/chai5.jpg" style="width:100%">
           
         </div>
@@ -100,13 +102,14 @@
 
 <!-- INTRODUCTION -->
       
-   <section class="about">
+   <section class="about_intro">
     <div class="main">
         <img src="/backup/image/logo.png">
         <div class="about-text">
             <h1><span>Introduction</span></h1>
             <p style="font-size:20px;">PETBot company, are one of the eminent business entities engaged in manufacturing, supplying and exporting a wide range of PET/PP/PC Bottles. The company has state of the art manufacturing unit of PET bottles. They have PET Bottles making Plant. Available in customized form, their machines are used by several 
                 manufacturing companies in making of packaged drinking water, household chemicals, pharmaceuticals, edible oils, liquor, hare care, pesticide etc.</p>
+                <button type="button">Read More</button>
         </div>
     </div>
 </section>
@@ -115,7 +118,7 @@
     
 <section class="products" id="products">
 
-  <h1 class="heading" style="margin-top:15px; text-align:center"> OUR <span>PRODUCTS</span> </h1>
+  <h1 class="heading"> OUR <span>PRODUCTS</span> </h1>
 
   <div class="box-container">
 
@@ -306,12 +309,12 @@
 
 
 <!-- WHAT IS PET BOTTLE -->
-<section>
+<section class="define">
   <table>
-    <caption><span style="color:white;">What is</span> <span>PET Bottle?</span></caption>
+    <h1 class="heading">What is <span style="color:rgb(53, 184, 119)">PET plastic?</span></h1>
     <tr>
       <td>
-        PET Plastic Bottle (short for Polyethylene Terephthalate) is a type of plastic commonly used to hold liquids and beverages, milk tea, juice, etc. PET plastic is transparent, mechanically durable, and has high heat resistance. .
+       <p> <i><span>PET Plastic Bottle</span></i> (short for Polyethylene Terephthalate) is a type of plastic commonly used to hold liquids and beverages, milk tea, juice, etc. PET plastic is transparent, mechanically durable, and has high heat resistance. .</p>
       </td>
       <td>
             <p>- Made from 100% virgin pet plastic, not recycled.</p>
@@ -320,7 +323,7 @@
     </tr>
     <tr>
       <td>
-        <br>PET is the common name for a type of plastic in the polyester family. Polyester PET is formed from ethylene glycol (EG) and terephthalic acid (TPA) also known as “pure terephthalic acid” or PTA. The full chemical name of PET plastic is polyethylene terephthalate .
+        <br><p><i><span>PET</span></i> is the common name for a type of plastic in the polyester family. Polyester PET is formed from ethylene glycol (EG) and terephthalic acid (TPA) also known as “pure terephthalic acid” or PTA. The full chemical name of PET plastic is polyethylene terephthalate .</p>
       </td>
       <br>
       <td>
@@ -331,20 +334,37 @@
       </td>
     </tr>
     <tr>
-      <td>FDA approved safe in food and beverage containers 30 years ago</td>
-      <td><br>- Produce according to ISO standards, certificate of food safety and hygiene, food safety and hygiene.</td>
+      <td><p><i><span>FDA</span></i> approved safe in food and beverage containers 30 years ago</p></td>
+      <td><br><p>- Produce according to ISO standards, certificate of food safety and hygiene, food safety and hygiene.</p></td>
     </tr>
   </table>
 </section>
 
-<Section>
-  <h1 style="text-align:center"><span>FREQUENTLY ASKED QUESTIONS</span></h1>
-  <a onclick="toggle(this);"><h3>- What is PET plastic?</h3></a>
-  
+<Section class="menu_question" >
+  <h1 class="heading"><span style="color:rgb(48, 180, 88)">FREQUENTLY ASKED QUESTIONS</span></h1>
+  <!-- spaceeeeeeeeeeeeeeeeeeeeeeeeee -->
+
+  <a onclick="toggle(this);">- What is PET plastic?</a>
   <ul id="myul" class="question">
     <li>PET plastic stands for Polyethylene Terephthalate is a type of plastic commonly used for household and manufacturing products. Transparent PET plastic, mechanically durable, has high heat resistance.</li>
     <li>PET is the common name for a type of plastic in the polyester family. Polyester PET is formed from ethylene glycol (EG) and terephthalic acid (TPA) also known as “pure terephthalic acid” or PTA. The full chemical name of PET plastic is polyethylene terephthalate .</li>
     <li>Besides PP, HDPE, LDPE, PET is one of the widely used safe plastics. Almost every plastic water bottle in the world is made of PET. Thanks to its light weight, easy transport, it does not bioreact with the food or drink it contains.</li>
+  </ul>
+
+  <br>
+
+  <a onclick="toggle2(this);">- Why is PET plastic used to make plastic bottles?</a>
+  <ul id="myul2" class="question">
+    <li >Why do so many soft drink and bottled water companies now use plastic bottles instead of glass bottles? Because like glass, PET plastic is hygienic, durable, safe, and protects drinks from microorganisms. In addition, pet plastic does not react with food or beverages on the inside and will not biodegrade.</li>
+  </ul>
+  
+  <br>
+
+  <a onclick="toggle3(this);">- Is it safe to use for health?</a>
+  <ul id="myul3" class="question">
+    <li>PET plastic has been approved by FDA and health authorities around the world as safe for contact with food and beverages.</li>
+    <li>Used in many types of packaging for many foods, including soft drinks, juice, peanut butter, beer, wine, supermarket packaging… </li>
+    <li>The bottle is made of pet plastic completely safe for users.</li>
   </ul>
 </Section>
 
@@ -356,9 +376,8 @@
 
 <!-- start footer -->
 <section>
-
   <footer class="footer">
-    <hr style="margin-bottom: 15px;" width="100%">
+    <hr width="100%" style="margin-bottom:15px;">
     <div class="container">
       <div class="row">
         <div class="footer-col">
@@ -391,6 +410,12 @@
             <li>Phone:</li>
             <li>Email: <a href="mailto:PETBot@gmail.com">PETBot@gmail.com</a></p></li>
             <li>Maps:</li>
+            <div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-messenger"></i></a>
+  	 			</div>
           </ul>
         </div>
   

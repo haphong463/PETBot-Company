@@ -52,8 +52,51 @@ let toggle = button => {
        button.innerText = "+ What is PET plastic?";
     }
   }
-  let searchForm = document.querySelector('.search-form');
 
-  document.querySelector('#search-btn').onclick = () =>{
-      searchForm.classList.toggle('active');
+  let toggle2 = button => {
+    let element = document.getElementById("myul2");
+    let hidden = element.getAttribute("hidden");
+
+    if (hidden) {
+       element.removeAttribute("hidden");
+       button.innerText = "- Why is PET plastic used to make plastic bottles?";
+    } else {
+       element.setAttribute("hidden", "hidden");
+       button.innerText = "+ Why is PET plastic used to make plastic bottles?";
+    }
   }
+
+  let toggle3 = button => {
+    let element = document.getElementById("myul3");
+    let hidden = element.getAttribute("hidden");
+
+    if (hidden) {
+       element.removeAttribute("hidden");
+       button.innerText = "- Is it safe to use for health?";
+    } else {
+       element.setAttribute("hidden", "hidden");
+       button.innerText = "+ Is it safe to use for health?";
+    }
+  }
+
+
+
+
+let searchForm = document.querySelector('.search-form');
+
+document.querySelector('#search-btn').onclick = () =>{
+    searchForm.classList.toggle('active');
+    cartItem.classList.remove('active');
+}
+
+let cartItem = document.querySelector('.cart-items-container');
+
+document.querySelector('#cart-btn').onclick = () =>{
+    cartItem.classList.toggle('active');
+    searchForm.classList.remove('active');
+}
+
+window.onscroll = () =>{
+    searchForm.classList.remove('active');
+    cartItem.classList.remove('active');
+}

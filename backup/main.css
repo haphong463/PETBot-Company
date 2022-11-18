@@ -382,15 +382,9 @@ ul{
 }
 }
 
-
-h2{
-  color:chocolate;
-}
-
-
 .products .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap:1.5rem;
 }
 
@@ -419,7 +413,7 @@ h2{
 }
 
 .products .box-container .box .image img{
-    height: 25rem;
+    height: 20rem;
 }
 
 .products .box-container .box .content_products h3{

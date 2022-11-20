@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>PETBot Company | Home</title>
     <link rel="stylesheet" href="main.css">
 
     <!-- library -->
@@ -14,34 +14,67 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="/image/logo.png">
   </head>
 <body>
     
 <!-- header -->
-    <header>
-        <a href="#home" class="logo"><img src="/backup/image/logo.png" width="120"></a>
+<header class="header">
 
-        <ul class="navbar">
-             <li><a href="#" class="active">Home</a></li>
-             <li><a href="#products">Products</a></li>
-             <li><a href="about.html">About Us</a></li>
-             <li><a href="#feedback">Feedback</a></li>
-             <li><a href="#blog">Blog</a></li>
-        </ul>
-        
-        <div class="main">
-          <div class="fas fa-search" id="search-btn" style="font-size:25px;"></div>
-          <div class="bx bx-cart" id="cart-btn" style="font-size:34px;"></div>
-          <div class="bx bx-user" style="font-size:30px;"></div>
-          <div class="bx bx-menu" id="menu-icon"></div>
-        </div>
+  <a href="#" class="logo">
+      <img src="/image/logo.png" alt="">
+  </a>
 
-        <div class="search-form">
-          <input type="search" id="search-box" placeholder="search here...">
-          <label for="search-box" class="fas fa-search"></label>
+  <nav class="navbar">
+    <a href="/home/home.html">home</a>
+    <a href="/products/products.html">products</a>
+    <a href="/about us/aboutus.html">about us</a>
+    <a href="#feedback">feedback</a>
+    <a href="#blogs">blogs</a>
+</nav>
+
+  <div class="icons">
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-user" id="user"></div>
+      <div class="fas fa-bars" id="menu-btn"></div>
+      
+  </div>
+
+  <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box" class="fas fa-search"></label>
+  </div>
+
+  <div class="cart-items-container">
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/image/hinh1.jpg" alt="">
+          <div class="cart-content">
+              <h3>350ml Round Pet Plastic Bottle</h3>
+              <div class="price">5.000đ/-</div>
+          </div>
       </div>
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/image/hinh2.jpg" alt="">
+          <div class="cart-content">
+              <h3>250ml Square Pet Plastic Bottle</h3>
+              <div class="price">4.000đ/-</div>
+          </div>
+      </div>
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/image/hinh3.jpg" alt="">
+          <div class="cart-content">
+              <h3>Empty Plastic Bottle</h3>
+              <div class="price">1.800đ/-</div>
+          </div>
+      </div>
+      <a href="#" class="btn">checkout now</a>
+  </div>
 
-    </header>
+</header>
 <!-- end header -->
 
 
@@ -51,37 +84,37 @@
 
         <div class="mySlides fade">
           <div class="numbertext">1 / 6</div>
-          <img src="/backup/image/slide2.jpg" style="width:100%">
+          <img src="/image/slide2.jpg" style="width:100%">
           
         </div>
         
         <div class="mySlides fade">
           <div class="numbertext">2 / 6</div>
-          <img src="/backup/image/chai4.jpg" style="width:100%">
+          <img src="/image/chai4.jpg" style="width:100%">
           
         </div>
         
         <div class="mySlides fade">
           <div class="numbertext">3 / 6</div> 
-          <img src="/backup/image/chai5.jpg" style="width:100%">
+          <img src="/image/chai5.jpg" style="width:100%">
           
         </div>
 
         <div class="mySlides fade">
           <div class="numbertext">4 / 6</div>
-          <img src="/backup/image/slide1.jpg" style="width:100%">
+          <img src="/image/slide1.jpg" style="width:100%">
           
         </div>
 
         <div class="mySlides fade">
           <div class="numbertext">5 / 6</div>
-          <img src="/backup/image/chai2.jpg" style="width:100%">
+          <img src="/image/chai2.jpg" style="width:100%">
           
         </div>
 
         <div class="mySlides fade">
           <div class="numbertext">6 / 6</div>
-          <img src="/backup/image/slide3.jpg" style="width:100%">
+          <img src="/image/slide3.jpg" style="width:100%">
         
         </div>
         
@@ -102,23 +135,27 @@
 
 <!-- INTRODUCTION -->
       
-   <section class="about_intro">
-    <div class="main">
-        <img src="/backup/image/logo.png">
-        <div class="about-text">
-            <h1><span>Introduction</span></h1>
-            <p style="font-size:20px;">PETBot company, are one of the eminent business entities engaged in manufacturing, supplying and exporting a wide range of PET/PP/PC Bottles. The company has state of the art manufacturing unit of PET bottles. They have PET Bottles making Plant. Available in customized form, their machines are used by several 
-                manufacturing companies in making of packaged drinking water, household chemicals, pharmaceuticals, edible oils, liquor, hare care, pesticide etc.</p>
-                <button type="button">Read More</button>
-        </div>
+<section class="about">
+  <div class="main_intro">
+    <img src="/image/logo.png">
+    <div class="about-text">
+      <h2><span>Introduction</span></h2>
+      <p>PETBot company, are one of the eminent business entities engaged in
+        manufacturing, supplying and exporting a wide range of PET/PP/PC Bottles. The
+        company has state of the art manufacturing unit of PET bottles.
+        They have PET Bottles making Plant. Available in customized form, their machines
+        are used by several manufacturing companies in making of packaged drinking water,
+        household chemicals, pharmaceuticals, edible oils, liquor, hare care, pesticide etc.</p>
+      <a href="#"><button type="button">Read More</button></a>
     </div>
+  </div>
 </section>
 
 <!-- PRODUCTS -->
-    
+  
 <section class="products" id="products" style="background-color:rgb(27, 27, 27);">
 
-  <h1 class="heading"> OUR <span>PRODUCTS</span> </h1>
+  <h1 class="heading"> RECENT <span>PRODUCTS</span> </h1>
 
   <div class="box-container">
 
@@ -129,7 +166,7 @@
               <a href="#" class="fas fa-eye"></a>
           </div>
           <div class="image">
-              <img src="/backup/image/hinh1.jpg" alt="">
+              <img src="/image/hinh1.jpg" alt="">
           </div>
           <div class="content_products">
               <h3>350ml Round Pet Plastic Bottle</h3>
@@ -145,26 +182,26 @@
       </div>
 
       <div class="box">
-          <div class="icons">
-              <a href="#" class="fas fa-shopping-cart"></a>
-              <a href="#" class="fas fa-heart"></a>
-              <a href="#" class="fas fa-eye"></a>
-          </div>
-          <div class="image">
-              <img src="/backup/image/hinh2.jpg" alt="">
-          </div>
-          <div class="content_products">
-              <h3>250ml Square Pet Plastic Bottle</h3>
-              <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-              </div>
-              <div class="price">4.000đ <span>6.000đ</span></div>
-          </div>
-      </div>
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image ">
+            <img src="/image/hutraitao40-60-160.jpg" alt="">
+        </div>
+        <div class="content_products">
+            <h3>Apple Jar 40-60-160</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">1.500đ <span>4.000đ</span></div>
+    </div>
+    </div>
 
       <div class="box">
           <div class="icons">
@@ -173,7 +210,7 @@
               <a href="#" class="fas fa-eye"></a>
           </div>
           <div class="image">
-              <img src="/backup/image/hinh7.jpg" alt="">
+              <img src="/image/hinh7.jpg" alt="">
           </div>
           <div class="content_products">
               <h3>350ml Triangle Pet Bottle</h3>
@@ -195,11 +232,11 @@
             <a href="#" class="fas fa-heart"></a>
             <a href="#" class="fas fa-eye"></a>
         </div>
-        <div class="image">
-            <img src="/backup/image/hinh8.jpg" alt="">
+        <div class="image ">
+            <img src="/image/huGuarantee25.jpg" alt="">
         </div>
         <div class="content_products">
-            <h3>1L Water Tank</h3>
+            <h3>Guarantee Jar 25ml</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -207,8 +244,8 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <div class="price">40.000đ <span>46.000đ</span></div>
-        </div>
+            <div class="price">1.500đ <span>4.000đ</span></div>
+    </div>
     </div>
 
 
@@ -218,11 +255,11 @@
           <a href="#" class="fas fa-heart"></a>
           <a href="#" class="fas fa-eye"></a>
       </div>
-      <div class="image">
-          <img src="/backup/image/hinh5.jpg" alt="">
+      <div class="image ">
+          <img src="/image/huGuarantee160.jpg" alt="">
       </div>
       <div class="content_products">
-          <h3>Empty Plastic Bottle With Green Cap</h3>
+          <h3>Guarantee Jar 160ml</h3>
           <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -231,7 +268,7 @@
               <i class="fas fa-star-half-alt"></i>
           </div>
           <div class="price">1.500đ <span>4.000đ</span></div>
-      </div>
+  </div>
   </div>
 
 
@@ -242,7 +279,7 @@
         <a href="#" class="fas fa-eye"></a>
     </div>
     <div class="image">
-        <img src="/backup/image/hinh6.jpg" alt="">
+        <img src="/image/hinh6.jpg" alt="">
     </div>
     <div class="content_products">
         <h3>Empty Plastic Bottle With Blue Cap</h3>
@@ -265,7 +302,7 @@
       <a href="#" class="fas fa-eye"></a>
   </div>
   <div class="image">
-      <img src="/backup/image/hinh3.jpg" alt="">
+      <img src="/image/hinh3.jpg"  alt="">
   </div>
   <div class="content_products">
       <h3>Empty Plastic Bottle</h3>
@@ -287,7 +324,7 @@
       <a href="#" class="fas fa-eye"></a>
   </div>
   <div class="image zoom">
-      <img src="/backup/image/hinh4.jpg" alt="">
+      <img src="/image/hinh4.jpg" alt="">
   </div>
   <div class="content_products">
       <h3>Empty Plastic Pottle With Red Cap</h3>
@@ -309,36 +346,36 @@
 
 
 <!-- WHAT IS PET BOTTLE -->
-<section class="define" style="background-color:rgb(56, 54, 54)">
-  <table>
-    <h1 class="heading">What is <span style="color:rgb(53, 184, 119)">PET plastic?</span></h1>
-    <tr>
-      <td>
-       <p> <i><span>PET Plastic Bottle</span></i> (short for Polyethylene Terephthalate) is a type of plastic commonly used to hold liquids and beverages, milk tea, juice, etc. PET plastic is transparent, mechanically durable, and has high heat resistance. .</p>
-      </td>
-      <td>
-            <p>- Made from 100% virgin pet plastic, not recycled.</p>
-<br>        <p>- The structure of the plastic circuit remains intact at temperatures of 200°C and – 90°C.</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <br><p><i><span>PET</span></i> is the common name for a type of plastic in the polyester family. Polyester PET is formed from ethylene glycol (EG) and terephthalic acid (TPA) also known as “pure terephthalic acid” or PTA. The full chemical name of PET plastic is polyethylene terephthalate .</p>
-      </td>
-      <br>
-      <td>
-      <p><br>- Plastic bottles are sturdy, transparent, the plastic does not look opaque and shiny, those are the bottles without impurities during the bottle blowing process.</p>
-      <p><br>- The bottom of the bottle has a clear and transparent PET symbol.</p>
-
+  <section class="define" style="background-color:rgb(56, 54, 54)">
+    <table>
+      <h1 class="heading">What is <span style="color:rgb(53, 184, 119)">PET plastic?</span></h1>
+      <tr>
+        <td>
+         <p> <i><span>PET Plastic Bottle</span></i> (short for Polyethylene Terephthalate) is a type of plastic commonly used to hold liquids and beverages, milk tea, juice, etc. PET plastic is transparent, mechanically durable, and has high heat resistance. .</p>
+        </td>
+        <td>
+              <p>- Made from 100% virgin pet plastic, not recycled.</p>
+  <br>        <p>- The structure of the plastic circuit remains intact at temperatures of 200°C and – 90°C.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <br><p><i><span>PET</span></i> is the common name for a type of plastic in the polyester family. Polyester PET is formed from ethylene glycol (EG) and terephthalic acid (TPA) also known as “pure terephthalic acid” or PTA. The full chemical name of PET plastic is polyethylene terephthalate .</p>
+        </td>
+        <br>
+        <td>
+        <p><br>- Plastic bottles are sturdy, transparent, the plastic does not look opaque and shiny, those are the bottles without impurities during the bottle blowing process.</p>
+        <p><br>- The bottom of the bottle has a clear and transparent PET symbol.</p>
   
-      </td>
-    </tr>
-    <tr>
-      <td><p><i><span>FDA</span></i> approved safe in food and beverage containers 30 years ago</p></td>
-      <td><br><p>- Produce according to ISO standards, certificate of food safety and hygiene, food safety and hygiene.</p></td>
-    </tr>
-  </table>
-</section>
+    
+        </td>
+      </tr>
+      <tr>
+        <td><p><i><span>FDA</span></i> approved safe in food and beverage containers 30 years ago</p></td>
+        <td><br><p>- Produce according to ISO standards, certificate of food safety and hygiene, food safety and hygiene.</p></td>
+      </tr>
+    </table>
+  </section>
 
 <!-- QUESTION -->
 <Section class="menu_question" style="background-color:rgb(56, 54, 54)" >
@@ -370,12 +407,7 @@
 </Section>
 
 
-
-
-<!-- end content -->
-
-
-<!-- start footer -->
+<!-- footer -->
 <section class="footer">
   <footer >
     <hr width="100%" style="margin-bottom:15px;">
@@ -407,16 +439,17 @@
         <div class="footer-col">
           <h4>Contact Us</h4>
           <ul>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-facebook-messenger"></i></a>
+            </div>
             <li>Address:</li>
             <li>Phone:</li>
             <li>Email: <a href="mailto:PETBot@gmail.com">PETBot@gmail.com</a></p></li>
-            <li>Maps:</li>
-            <div class="social-links">
-  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
-  	 				<a href="#"><i class="fab fa-twitter"></i></a>
-  	 				<a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-facebook-messenger"></i></a>
-  	 			</div>
+            <li><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62714.502970373076!2d106.65451278717275!3d10.760939409595059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1668841042563!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </li>            
           </ul>
         </div>
   
@@ -425,7 +458,7 @@
   </footer>
 
 </section>
-<!-- end footer -->
+
 <script src="index.js"></script>
 </body>
 </html>

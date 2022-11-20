@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="about.css">
+    <title>PET Company | About Us</title>
+    <link rel="stylesheet" href="product.css">
     <!-- library -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -14,34 +13,67 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="/about us/image/logo.png">
   </head>
 <body>
     
 <!-- header -->
-    <header>
-        <a href="#home" class="logo"><img src="/backup/image/logo.png" width="120"></a>
+<header class="header">
 
-        <ul class="navbar">
-             <li><a href="home.html" class="active">Home</a></li>
-             <li><a href="#products">Products</a></li>
-             <li><a href="about.html">About Us</a></li>
-             <li><a href="#feedback">Feedback</a></li>
-             <li><a href="#blog">Blog</a></li>
-        </ul>
-        
-        <div class="main">
-          <div class="fas fa-search" id="search-btn" style="font-size:25px;"></div>
-          <div class="bx bx-cart" id="cart-btn" style="font-size:34px;"></div>
-          <div class="bx bx-user" style="font-size:30px;"></div>
-          <div class="bx bx-menu" id="menu-icon"></div>
-        </div>
+  <a href="#" class="logo">
+      <img src="image/logo.png" alt="">
+  </a>
 
-        <div class="search-form">
-          <input type="search" id="search-box" placeholder="search here...">
-          <label for="search-box" class="fas fa-search"></label>
+  <nav class="navbar">
+      <a href="#">home</a>
+      <a href="#products">products</a>
+      <a href="#about">about us</a>
+      <a href="#feedback">feedback</a>
+      <a href="#blogs">blogs</a>
+  </nav>
+
+  <div class="icons">
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-user" id="user"></div>
+      <div class="fas fa-bars" id="menu-btn"></div>
+      
+  </div>
+
+  <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box" class="fas fa-search"></label>
+  </div>
+
+  <div class="cart-items-container">
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/home/image/hinh1.jpg" alt="">
+          <div class="cart-content">
+              <h3>350ml Round Pet Plastic Bottle</h3>
+              <div class="price">5.000đ/-</div>
+          </div>
       </div>
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/home/image/hinh2.jpg" alt="">
+          <div class="cart-content">
+              <h3>250ml Square Pet Plastic Bottle</h3>
+              <div class="price">4.000đ/-</div>
+          </div>
+      </div>
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/home/image/hinh3.jpg" alt="">
+          <div class="cart-content">
+              <h3>Empty Plastic Bottle</h3>
+              <div class="price">1.800đ/-</div>
+          </div>
+      </div>
+      <a href="#" class="btn">checkout now</a>
+  </div>
 
-    </header>
+</header>
 <!-- end header -->
 
 
@@ -88,7 +120,7 @@
   household chemicals, pharmaceuticals, cooking oils, alcohol, rabbit care, pesticides, ...
   </h3>
   </td>
-  <td><img src="/backup/image/logo.png" width="450"></td>
+  <td><img src="/image/logo.png" width="450"></td>
   </tr>
   <tr>
   <td colspan="2">
@@ -170,6 +202,6 @@
 
 </section>
 <!-- end footer -->
-<script src="index.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

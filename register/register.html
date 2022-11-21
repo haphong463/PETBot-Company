@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="register.css">
+    <!-- library -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+<body>
+    
+<!-- header -->
+    <header>
+        <a href="#home" class="logo"><img src="/image/logo.png" width="120"></a>
+
+        <ul class="navbar">
+             <li><a href="#" class="active">Home</a></li>
+             <li><a href="#products">Products</a></li>
+             <li><a href="#about">About Us</a></li>
+             <li><a href="#feedback">Feedback</a></li>
+             <li><a href="#blog">Blog</a></li>
+        </ul>
+        
+        <div class="main">
+          <div class="fas fa-search" id="search-btn" style="font-size:25px;"></div>
+          <div class="bx bx-cart" id="cart-btn" style="font-size:34px;"></div>
+          <div class="bx bx-user" style="font-size:30px;"></div>
+          <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+
+        <div class="search-form">
+          <input type="search" id="search-box" placeholder="search here...">
+          <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+    </header>
+<!-- end header -->
+
+<!--content-->
+  
+<article>
+   
+  <form action="/action_page.php">
+      <div class="container">
+        <p style="text-align: center;color:black; font-size: 30px;">Register</p>
+        <p style="color:black;text-align: center;;font-size: 13px">Please fill in this form to create an account.</p>
+        <hr>
+    
+        <label for="username"><b style="color:black;font-size: 15px;">User name</b></label>
+        <input type="text" placeholder="Enter User name" name="username" id="username" required>
+
+        <label for="email"><b style="color:black;font-size: 15px">Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    
+        <label for="psw"><b style="color:black;font-size: 15px">Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    
+        <label for="psw-repeat"><b style="color:black;font-size: 15px">Confirm Password</b></label>
+        <input type="password" placeholder="Confirm Password" name="psw-repeat" id="psw-repeat" required>
+        <hr>
+        <p style="color:black;text-align: center;">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    
+        <button type="submit" class="registerbtn">Register</button>
+      </div>
+      
+      <div class="container signin">
+        <p style="color:black">Already have an account? <a href="#">Sign in</a>.</p>
+      </div>
+    </form>
+</article>   
+<!--end content-->
+
+
+<!-- start footer -->
+<section class="footer">
+  <footer >
+    <hr width="100%" style="margin-bottom:15px;">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li>PETBot company, are one of the eminent business entities engaged in manufacturing, supplying and exporting a wide range of PET/PP/PC Bottles.</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Category</h4>
+          <ul>
+            <li><a href="#">Introduce</a></li>
+            <li><a href="#">Terms of use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Sales policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Main Product</h4>
+          <ul>
+            <li><a href="#">Plastic Bottle</a></li>
+            <li><a href="#">PET Bottle</a></li>
+            <!-- update -->
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul>
+            <li>Address:</li>
+            <li>Phone:</li>
+            <li>Email: <a href="mailto:PETBot@gmail.com">PETBot@gmail.com</a></p></li>
+            <li>Maps:</li>
+            <div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-messenger"></i></a>
+  	 			</div>
+          </ul>
+        </div>
+  
+      </div>
+    </div>
+  </footer>
+
+</section>
+<!-- end footer -->
+<script src="index.js"></script>
+</body>
+</html>

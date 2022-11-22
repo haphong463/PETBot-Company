@@ -300,35 +300,84 @@ button:hover{
 
 
 /* start content */
-.content{
-  margin-top:150px;
-  padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.contact .row{
+  display: flex;
+  background:var(--black);
+  flex-wrap: wrap;
+  gap:1rem;
 }
-.about_intro{
-	width: 100%;
-	padding: 100px 0px;
-	background-color: #191919;
-}
-.about_intro img{
-	height: auto;
-	width: 50%;
-}
-.about-text{
-	width: 550px;
-}
-.about-text p{
-  color:white;
-  font-size:20px;
 
+.contact .row .map{
+  flex:1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact .row form{
+  flex:1 1 45rem;
+  padding:5rem 2rem;
+  text-align: center;
+}
+
+.contact .row form h3{
+  text-transform: uppercase;
+  font-size: 3rem;
+  color:#fff;
+}
+
+.contact .row form .inputBox{
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background:var(--bg);
+  
+}
+
+.contact .row form .inputBox span{
+  color:#fff;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+  width: 100%;
+  padding:2rem;
+  font-size: 1.7rem;
+  color:#fff;
+  text-transform: none;
+  background:none;
+  outline: none;
+  border:none;
+  border-bottom: 1px solid gray;
+}
+.contact .row form .inputBox input:focus{
+border-color:#30bb7a;
+}
+.inputBox .fas{
+margin-right:10px;
 }
 span{
 	color: chocolate;
   font-size:35px;
 }
-
+.button{
+  background-color: chocolate;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s; 
+  font-size:2rem;
+  text-transform: capitalize;
+}
+.button:hover{
+  background-color: transparent;
+  border: 2px solid chocolate;
+  cursor: pointer;
+}
 
 .review .box-container{
   display: grid;
@@ -375,30 +424,8 @@ section{
   margin: 100px 0;
 }
 
-.define table tr td p, .define table tr td p span{
-  font-size:15px;
-}
-.define table tr td p{
-  color:var(--text-color);
-}
-.question{
-  margin-left:15px;
-}
 .footer-col ul li{
   font-size:15px;
-}
-.menu_question
-{
-  padding: 60px 10px;
-}
-.menu_question a{
-  font-size:20px;
-  color: var(--main-color);
-  cursor: pointer;
-}
-.menu_question ul li{
-  font-size:15px;
-  color:var(--text-color);
 }
 hr{
   width:100%;
@@ -480,7 +507,7 @@ hr{
     padding: 70px 0;
 }
 .footer-col{
-   width: 25%;
+   width: 20%;
    padding: 0 15px;
 }
 .footer-col h4{
@@ -554,4 +581,52 @@ hr{
 }
 }
 
+
+.rating-wrapper {
+
+  align-items: center;
+  justify-content: space-between;
+}
+.rating-star {
+  position: relative;
+  display: flex;
+  margin: 10px 0;
+  flex-direction: row-reverse;
+  text-align:Center;
+  justify-content: center;
+}
+.rating-star input {
+  position: relative;
+  width: 20px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  appearance: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.rating-star input::before {
+  content: '\eeb8';
+  position: absolute;
+  font-family: boxicons;
+  font-size: 34px;
+  position: absolute;
+  left: 4px;
+  color: white;
+  transition: all .3s;
+}
+
+.rating-star input:nth-child(2n + 1)::before {
+  right: 4px;
+  left: initial;
+}
+
+.rating-star input:hover ~ input::before,
+.rating-star input:hover::before,
+.rating-star input:checked ~ input::before,
+.rating-star input:checked::before {
+  color: var(--main-color);
+}
 

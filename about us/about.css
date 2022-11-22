@@ -425,20 +425,6 @@
         right: 2rem;
     }
   
-    .home{
-        background-position: left;
-        justify-content: center;
-        text-align: center;
-    }
-  
-    .home .content h3{
-        font-size: 4.5rem;
-    }
-  
-    .home .content p{
-        font-size: 1.5rem;
-    }
-  
   }
   
   @media (max-width:450px){
@@ -464,7 +450,7 @@
       padding: 70px 0;
   }
   .footer-col{
-     width: 25%;
+     width: 20%;
      padding: 0 15px;
   }
   .footer-col h4{

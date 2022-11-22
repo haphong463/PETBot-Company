@@ -61,6 +61,7 @@ body{
   color:#fff;
   background: var(--main-color);
   cursor: pointer;
+  text-transform: capitalize;
 }
 .header .icons a{
   color:#fff;
@@ -481,9 +482,7 @@ td{
 .question{
   margin-left:15px;
 }
-.footer-col ul li{
-  font-size:15px;
-}
+
 .menu_question
 {
   padding: 60px 10px;
@@ -589,8 +588,11 @@ hr{
 	background-color: var(--bg-color);
     padding: 70px 0;
 }
+.footer-col ul li{
+  font-size:15px;
+}
 .footer-col{
-   width: 25%;
+   width: 20%;
    padding: 0 15px;
 }
 .footer-col h4{

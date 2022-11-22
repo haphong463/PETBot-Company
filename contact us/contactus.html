@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PETBot Company | Contact Us</title>
     <link rel="stylesheet" href="contact.css">
-
+    <link rel="stylesheet" href="/sticky.css">
     <!-- library -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -18,65 +18,74 @@
 </head>
 <body>
 <!-- header -->
-    <header class="header">
+<header class="header">
 
-        <a href="#" class="logo">
-            <img src="/image/logo.png" alt="">
-        </a>
-      
-        <nav class="navbar">
-          <a href="/home/home.html">home</a>
-          <a href="/products/products.html">products</a>
-          <a href="/about us/aboutus.html">about us</a>
-          <a href="/contact us/contactus.html">contact us</a>
-          <a href="/feedback/feedback.html">feedback</a>
-          <a href="/blogs/blogs.html">blogs</a>
-      </nav>
+  <a href="#" class="logo">
+      <img src="/image/logo.png" alt="">
+  </a>
+
+  <nav class="navbar">
+    <a href="/home/home.html">home</a>
+    <a href="/products/products.html">products</a>
+    <a href="/about us/aboutus.html">about us</a>
+    <a href="/contact us/contactus.html">contact us</a>
+    <a href="/feedback/feedback.html">feedback</a>
+    <a href="/blogs/blogs.html">blogs</a>
+</nav>
+
+<div class="icons">
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    <a class="fas fa-user" id="user"></a>
+    <div class="fas fa-bars" id="menu-btn"></div>
     
-      <div class="icons">
-          <div class="fas fa-search" id="search-btn"></div>
-          <div class="fas fa-shopping-cart" id="cart-btn"></div>
-          <a class="fas fa-user" id="user" href="/register/register.html"></a>
-          <div class="fas fa-bars" id="menu-btn"></div>
-          
-      </div>
-      
-        <div class="search-form">
-            <input type="search" id="search-box" placeholder="search here...">
-            <label for="search-box" class="fas fa-search"></label>
-        </div>
-      
-        <div class="cart-items-container">
-            <div class="cart-item">
-                <span class="fas fa-times"></span>
-                <img src="/image/hinh1.jpg" alt="">
-                <div class="cart-content">
-                    <h3>350ml Round Pet Plastic Bottle</h3>
-                    <div class="price">5.000đ/-</div>
-                </div>
-            </div>
-            <div class="cart-item">
-                <span class="fas fa-times"></span>
-                <img src="/image/hinh2.jpg" alt="">
-                <div class="cart-content">
-                    <h3>250ml Square Pet Plastic Bottle</h3>
-                    <div class="price">4.000đ/-</div>
-                </div>
-            </div>
-            <div class="cart-item">
-                <span class="fas fa-times"></span>
-                <img src="/image/hinh3.jpg" alt="">
-                <div class="cart-content">
-                    <h3>Empty Plastic Bottle</h3>
-                    <div class="price">1.800đ/-</div>
-                </div>
-            </div>
-            <a href="#" class="btn">checkout now</a>
-        </div>
-      
-      </header>
-<!-- end header -->
+</div>
 
+  <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box" class="fas fa-search"></label>
+  </div>
+
+  <div class="cart-items-container">
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/image/hinh1.jpg" alt="">
+          <div class="cart-content">
+              <h3>350ml Round Pet Plastic Bottle</h3>
+              <div class="price">5.000đ/-</div>
+          </div>
+      </div>
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/image/hinh2.jpg" alt="">
+          <div class="cart-content">
+              <h3>250ml Square Pet Plastic Bottle</h3>
+              <div class="price">4.000đ/-</div>
+          </div>
+      </div>
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/image/hinh3.jpg" alt="">
+          <div class="cart-content">
+              <h3>Empty Plastic Bottle</h3>
+              <div class="price">1.800đ/-</div>
+          </div>
+      </div>
+      <a href="#" class="btn">checkout now</a>
+  </div>
+
+  <form action="" class="login-form">
+    <h3>login now</h3>
+    <input type="email" placeholder="your email" class="box">
+    <input type="password" placeholder="your password" class="box">
+    <p>forget your password <a href="#">click here</a></p>
+    <p>don't have an account <a href="/register/register.html">create now</a></p>
+    <input type="submit" value="login now" class="btn">
+</form>
+
+</header>
+<!-- end header -->
+<a href="#" class="icon-bar"><i class="bx bx-up-arrow-alt"></i></a>
 <section class="contact" id="contact">
 
     <h1 class="heading"> <span>contact</span> us </h1>
@@ -115,56 +124,62 @@
 
 </section>
 
-<section class="footer">
-    <footer >
-      <hr>
-      <div class="container">
-        <div class="row">
-          <div class="footer-col">
-            <h4>company</h4>
-            <ul>
-              <li>PETBot company, are one of the eminent business entities engaged in manufacturing, supplying and exporting a wide range of PET/PP/PC Bottles.</li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>Category</h4>
-            <ul>
-              <li><a href="#">Introduce</a></li>
-              <li><a href="#">Terms of use</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Sales policy</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>Main Product</h4>
-            <ul>
-              <li><a href="#">Plastic Bottle</a></li>
-              <li><a href="#">PET Bottle</a></li>
-              <!-- update -->
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>Contact Us</h4>
-            <ul>
-              <div class="social-links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-               <a href="#"><i class="fab fa-facebook-messenger"></i></a>
-              </div>
-              <li>Address:</li>
-              <li>Phone:</li>
-              <li>Email: <a href="mailto:PETBot@gmail.com">PETBot@gmail.com</a></p></li>
-              <li><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62714.502970373076!2d106.65451278717275!3d10.760939409595059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1668841042563!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </li>            
-            </ul>
-          </div>
-    
-        </div>
+<!-- footer -->
+<footer class="footer">
+  <hr>
+  <div class="container" style="padding:30px;">
+    <div class="row">
+      <div class="footer-col">
+        <h4>company</h4>
+        <ul>
+          <li>PETBot company, are one of the eminent business entities engaged in manufacturing, supplying and exporting a wide range of PET/PP/PC Bottles.</li>
+        </ul>
       </div>
-    </footer>
-  
-  </section>
+      <div class="footer-col">
+        <h4>Category</h4>
+        <ul>
+          <li><a href="#">Introduce</a></li>
+          <li><a href="#">Terms of use</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Sales policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Main Product</h4>
+        <ul>
+          <li><a href="#">Plastic Bottle</a></li>
+          <li><a href="#">PET Bottle</a></li>
+          <!-- update -->
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <ul>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul>
+          <li>Address:</li>
+          <li>Phone:</li>
+          <li>Email: <a href="mailto:PETBot@gmail.com">PETBot@gmail.com</a></p></li>
+          <li><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62714.502970373076!2d106.65451278717275!3d10.760939409595059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1668841042563!5m2!1svi!2s" width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </li>            
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+  <div style="text-align:center;font-size:15px;color:white;">Copyright &#169; 2022. PETBOT Company. All right reserved.</div>
+</footer>
 
        
   <script src="/index.js"></script>

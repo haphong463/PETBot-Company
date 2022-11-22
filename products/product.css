@@ -69,7 +69,7 @@
   }
   
   .header{
-    background: var(--bg);
+    background-image:url(/image/banner.png);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -137,6 +137,17 @@
     color:var(--main-color);
   }
   
+  .header .icons a{
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+  }
+
+  .header .icons a:hover{
+    color:var(--main-color);
+  }
+
   #menu-btn{
     display: none;
   }
@@ -275,7 +286,9 @@
       color: chocolate;
     font-size:35px;
   }
-  
+  .products{
+    background-color:#13131a;
+  }
   .products .box-container{
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -365,9 +378,7 @@
   .question{
     margin-left:15px;
   }
-  .footer-col ul li{
-    font-size:15px;
-  }
+  
   .menu_question a{
     font-size:20px;
     color: var(--main-color);
@@ -513,8 +524,13 @@
       color: #24262b;
       background-color: #ffffff;
   }
-  
-  
+  .footer-col ul li{
+    font-size:15px;
+  }
+  hr{
+    width:100%;
+    margin-bottom:30px;
+  }
   
   /*responsive*/
   @media(max-width: 767px){

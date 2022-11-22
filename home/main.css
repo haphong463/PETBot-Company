@@ -62,13 +62,22 @@ body{
   background: var(--main-color);
   cursor: pointer;
 }
+.header .icons a{
+  color:#fff;
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
 
+.header .icons a:hover{
+  color:var(--main-color);
+}
 .btn:hover{
   letter-spacing: .2rem;
 }
 
 .header{
-  background: var(--bg);
+  background-image:url(/image/banner.png);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -279,6 +288,7 @@ button{
 	padding: 13px 30px;
 	border-radius: 30px;
 	transition: .4s; 
+  font-size:2rem;
 }
 button:hover{
 	background-color: transparent;
@@ -422,7 +432,7 @@ table{
 }
 .products .image:hover img {
 	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
+	transform: scale(1.1);
 }
 
 .products .box-container .box .content_products h3{
@@ -487,7 +497,10 @@ td{
   font-size:15px;
   color:var(--text-color);
 }
-
+hr{
+  width:100%;
+  margin-bottom:30px;
+}
 
 /* for media */
 @media (max-width:991px){
@@ -650,3 +663,5 @@ td{
     width: 100%;
 }
 }
+
+

@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="register.css">
     <!-- library -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -18,30 +17,63 @@
 <body>
     
 <!-- header -->
-    <header>
-        <a href="#home" class="logo"><img src="/image/logo.png" width="120"></a>
+<header class="header">
 
-        <ul class="navbar">
-             <li><a href="#" class="active">Home</a></li>
-             <li><a href="#products">Products</a></li>
-             <li><a href="#about">About Us</a></li>
-             <li><a href="#feedback">Feedback</a></li>
-             <li><a href="#blog">Blog</a></li>
-        </ul>
-        
-        <div class="main">
-          <div class="fas fa-search" id="search-btn" style="font-size:25px;"></div>
-          <div class="bx bx-cart" id="cart-btn" style="font-size:34px;"></div>
-          <div class="bx bx-user" style="font-size:30px;"></div>
-          <div class="bx bx-menu" id="menu-icon"></div>
-        </div>
+  <a href="#" class="logo">
+      <img src="/image/logo.png" alt="">
+  </a>
 
-        <div class="search-form">
-          <input type="search" id="search-box" placeholder="search here...">
-          <label for="search-box" class="fas fa-search"></label>
+  <nav class="navbar">
+    <a href="/home/home.html">home</a>
+    <a href="/products/products.html">products</a>
+    <a href="/about us/aboutus.html">about us</a>
+    <a href="/contact us/contactus.html">contact us</a>
+    <a href="/feedback/feedback.html">feedback</a>
+    <a href="/blogs/blogs.html">blogs</a>
+</nav>
+
+<div class="icons">
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    <a class="fas fa-user" id="user" href="/register/register.html"></a>
+    <div class="fas fa-bars" id="menu-btn"></div>
+    
+</div>
+
+  <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box" class="fas fa-search"></label>
+  </div>
+
+  <div class="cart-items-container">
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/image/hinh1.jpg" alt="">
+          <div class="cart-content">
+              <h3>350ml Round Pet Plastic Bottle</h3>
+              <div class="price">5.000đ/-</div>
+          </div>
       </div>
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/image/hinh2.jpg" alt="">
+          <div class="cart-content">
+              <h3>250ml Square Pet Plastic Bottle</h3>
+              <div class="price">4.000đ/-</div>
+          </div>
+      </div>
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="/image/hinh3.jpg" alt="">
+          <div class="cart-content">
+              <h3>Empty Plastic Bottle</h3>
+              <div class="price">1.800đ/-</div>
+          </div>
+      </div>
+      <a href="#" class="btn">checkout now</a>
+  </div>
 
-    </header>
+</header>
 <!-- end header -->
 
 <!--content-->
@@ -55,25 +87,29 @@
         <hr>
     
         <label for="username"><b style="color:black;font-size: 15px;">User name</b></label>
-        <input type="text" placeholder="Enter User name" name="username" id="username" required>
+        <input type="text" placeholder="enter your username.." name="username" id="username" required>
 
         <label for="email"><b style="color:black;font-size: 15px">Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    
+        <input type="text" placeholder="enter your email.." name="email" id="email" required>
+        
+        <label for="phone"><b style="color:black;font-size: 15px">Phone</b></label>
+        <input type="number" placeholder="enter your phone number.." name="phone" id="phone" required>
+
         <label for="psw"><b style="color:black;font-size: 15px">Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    
+        <input type="password" placeholder="enter your password.." name="psw" id="psw" required>
+
         <label for="psw-repeat"><b style="color:black;font-size: 15px">Confirm Password</b></label>
-        <input type="password" placeholder="Confirm Password" name="psw-repeat" id="psw-repeat" required>
+        <input type="password" placeholder="confirm your password.." name="psw-repeat" id="psw-repeat" required>
         <hr>
         <p style="color:black;text-align: center;">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
     
         <button type="submit" class="registerbtn">Register</button>
-      </div>
-      
-      <div class="container signin">
+        <div class="container signin">
         <p style="color:black">Already have an account? <a href="#">Sign in</a>.</p>
       </div>
+      </div>
+      
+      
     </form>
 </article>   
 <!--end content-->
@@ -130,6 +166,6 @@
 
 </section>
 <!-- end footer -->
-<script src="index.js"></script>
+<script src="/index.js"></script>
 </body>
 </html>

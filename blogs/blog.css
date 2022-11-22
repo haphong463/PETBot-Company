@@ -69,7 +69,7 @@
   }
   
   .header{
-    background: var(--bg);
+    background:url(/image/banner.png);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -139,6 +139,16 @@
   
   #menu-btn{
     display: none;
+  }
+  .header .icons a{
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+  }
+
+  .header .icons a:hover{
+    color:var(--main-color);
   }
   
   .header .search-form{
@@ -258,6 +268,7 @@
       padding: 13px 30px;
       border-radius: 30px;
       transition: .4s; 
+      text-transform: capitalize;
   }
   button:hover{
       background-color: transparent;
@@ -276,95 +287,14 @@
 
   }
   
-  .products .box-container{
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-      gap:1.5rem;
-  }
-  
-  .products .box-container .box{
-      text-align: center;
-      border:var(--border);
-      padding: 2rem;
-  }
-  
-  .products .box-container .box .icons a{
-      height: 5rem;
-      width: 5rem;
-      line-height: 5rem;
-      font-size: 2rem;
-      border:var(--border);
-      color:#fff;
-      margin:.3rem;
-  }
-  
-  .products .box-container .box .icons a:hover{
-      background:var(--main-color);
-  }
-  
-  .products .box-container .box .image{
-      padding: 2.5rem 0;
-  }
-  
-  .products .box-container .box .image img{
-      height: 25rem;
-  }
-  
-  .products .box-container .box .content_products h3{
-      color:#fff;
-      font-size: 1.5rem;
-  }
-  
-  .products .box-container .box .content_products .stars{
-      padding: 1.5rem;
-  }
-  
-  .products .box-container .box .content_products .stars i{
-      font-size: 1.7rem;
-      color: var(--main-color);
-  }
-  
-  .products .box-container .box .content_products .price{
-      color:#fff;
-      font-size: 2.5rem;
-  }
-  
-  .products .box-container .box .content_products .price span{
-      text-decoration: line-through;
-      font-weight: lighter;
-      font-size: 1.5rem;
-  }
+
   
   section{
     padding:2rem 7%;
     margin: 100px 0;
   }
   
-  td{
-    width:50%;
-  }
-  
-  .define table tr td p, .define table tr td p span{
-    font-size:15px;
-  }
-  .define table tr td p{
-    color:var(--text-color);
-  }
-  .question{
-    margin-left:15px;
-  }
-  .footer-col ul li{
-    font-size:15px;
-  }
-  .menu_question a{
-    font-size:20px;
-    color: var(--main-color);
-    cursor: pointer;
-  }
-  .menu_question ul li{
-    font-size:15px;
-    color:var(--text-color);
-  }
+
   
   
   /* for media */
@@ -416,22 +346,8 @@
         right: 2rem;
     }
   
-    .home{
-        background-position: left;
-        justify-content: center;
-        text-align: center;
-    }
-  
-    .home .content h3{
-        font-size: 4.5rem;
-    }
-  
-    .home .content p{
-        font-size: 1.5rem;
-    }
-  
   }
-  
+
   @media (max-width:450px){
   
     html{
@@ -513,7 +429,9 @@
       color: #24262b;
       background-color: #ffffff;
   }
-  
+  .footer-col ul li{
+    font-size:15px;
+  }
   
   
   /*responsive*/
@@ -529,21 +447,10 @@
   }
   }
 
-   
-  .blogs .image img {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-  }
-  .blogs .image:hover img {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.1);
-  }
 
 .blogs .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 0.5fr));
     gap:1.5rem;
 }
 
@@ -561,9 +468,13 @@
     height: 100%;
     object-fit: cover;
     width: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
-.blogs .box-container .box:hover .image img{
+.blogs .box-container .image:hover img{
     transform: scale(1.2);
 }
 
@@ -594,4 +505,8 @@
     line-height: 1.8;
     color:#ccc;
     padding:1rem 0;
+}
+hr{
+  width:100%;
+  margin-bottom:30px;
 }

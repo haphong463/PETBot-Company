@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>PETBot Company | Register</title>
     <link rel="stylesheet" href="register.css">
     <link rel="stylesheet" href="/sticky.css">
     <!-- library -->
@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="/image/logo.png">
   </head>
 <body>
     
@@ -74,7 +75,7 @@
       <a href="#" class="btn">checkout now</a>
   </div>
 
-  <form action="" class="login-form">
+  <form action="" class="login-form" onsubmit="checkSub2()">
     <h3>login now</h3>
     <input type="email" placeholder="your email" class="box">
     <input type="password" placeholder="your password" class="box">
@@ -90,23 +91,23 @@
   
 <article>
    
-  <form action="/action_page.php">
+  <form action="/register/register.html" onsubmit="checkSub()">
       <div class="container">
-        <p style="text-align: center;color:black; font-size: 30px;">Register</p>
-        <p style="color:black;text-align: center;;font-size: 13px">Please fill in this form to create an account.</p>
+        <p style="text-align: center;color:black; font-size: 30px;">PETBot Company</p>
+        <p style="color:black;text-align: center;;font-size: 13px">Create an account to join us.</p>
         <hr>
     
         <label for="username"><b style="color:black;font-size: 15px;">User name</b></label>
-        <input type="text" placeholder="enter your username.." name="username" id="username" required>
+        <input type="text" placeholder="6 characters!" name="username" id="usn" required>
 
         <label for="email"><b style="color:black;font-size: 15px">Email</b></label>
-        <input type="text" placeholder="enter your email.." name="email" id="email" required>
+        <input type="text" placeholder="xxx@Xxx.xxx" name="email" id="email" required>
         
         <label for="phone"><b style="color:black;font-size: 15px">Phone</b></label>
-        <input type="number" placeholder="enter your phone number.." name="phone" id="phone" required>
+        <input type="number" placeholder="10-11 number!" name="phone" id="phone" required>
 
         <label for="psw"><b style="color:black;font-size: 15px">Password</b></label>
-        <input type="password" placeholder="enter your password.." name="psw" id="psw" required>
+        <input type="password" placeholder="6-15 characters!" name="psw" id="psw" required>
 
         <label for="psw-repeat"><b style="color:black;font-size: 15px">Confirm Password</b></label>
         <input type="password" placeholder="confirm your password.." name="psw-repeat" id="psw-repeat" required>
@@ -184,5 +185,31 @@
 </footer>
 <!-- end footer -->
 <script src="/index.js"></script>
+<script>
+  function checkSub(){
+    var username = document.getElementById("usn").value;
+    var email = document.getElementById("email").value;
+    var phone = document.getElementById("phone").value;
+    var psw = document.getElementById("psw").value;
+    var psw_repeat = document.getElementById("psw-repeat").value;
+
+    if(!/^([\w]{6,})+$/.test(username)){
+      alert("Username must be 6 characters!");
+    }
+    else if(!/^([\w\-\.]{3,})@([\w]{3,}).([\w]{3,})+$/.test(email)){
+      alert("Email must be xxx@xxx.xxx!");
+    } else if(phone.length < 10 || phone.length > 11){
+      alert("Phone must be 10-11 number!")
+    } else if(psw.length < 6 || psw.length > 15){
+      alert("Password must be 6-15 characters!")
+    } else if(psw_repeat.length != psw.length){
+      alert("Confirm password != password");
+    } else {
+      alert("Register success!");
+    }
+    
+
+  }
+</script>
 </body>
 </html>

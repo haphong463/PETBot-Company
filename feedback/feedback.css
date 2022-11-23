@@ -340,7 +340,7 @@ button:hover{
   padding-left: 2rem;
 }
 
-.contact .row form .inputBox input{
+.contact .row form .inputBox input, .contact .row form .inputBox textarea{
   width: 100%;
   padding:2rem;
   font-size: 1.7rem;
@@ -351,7 +351,7 @@ button:hover{
   border:none;
   border-bottom: 1px solid gray;
 }
-.contact .row form .inputBox input:focus{
+.contact .row form .inputBox input:focus, .contact .row form .inputBox textarea:focus{
 border-color:#30bb7a;
 }
 .inputBox .fas{

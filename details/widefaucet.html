@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETBOT Company | Spice Jars 100ml</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href="/sticky.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="/image/logo.png">
+
+    
+</head>
+<body>
+
+    <header class="header">
+        <a href="/home/home.html" class="logo">
+            <img src="/image/logo.png" alt="">
+        </a>
+      
+        <nav class="navbar">
+          <a href="/home/home.html">home</a>
+          <a href="/products/products.html">products</a>
+          <a href="/about us/aboutus.html">about us</a>
+          <a href="/contact us/contactus.html">contact us</a>
+          <a href="/feedback/feedback.html">feedback</a>
+          <a href="/blogs/blogs.html">blogs</a>
+      </nav>
+      
+      <div class="icons">
+          <div class="fas fa-search" id="search-btn"></div>
+          <div class="fas fa-shopping-cart" id="cart-btn"></div>
+          <a class="fas fa-user" id="user"></a>
+          <div class="fas fa-bars" id="menu-btn"></div>
+          
+      </div>
+      
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+      
+        <div class="cart-items-container">
+            
+            <a href="#" class="btn">checkout now</a>
+        </div>
+      
+        <form action="" class="login-form" onsubmit="checkSub2()">
+          <h3>login now</h3>
+          <input type="email" placeholder="your email" class="box">
+          <input type="password" placeholder="your password" class="box">
+          <p>forget your password <a href="#">click here</a></p>
+          <p>don't have an account <a href="/register/register.html">create now</a></p>
+          <input type="submit" value="login now" class="btn">
+      </form>
+      </header>
+
+
+    <section>
+        <div class = "main-wrapper">
+            <div class = "container-1">
+                <div class = "product-div">
+                    <div class = "product-div-left">
+                        <div class = "img-container-1-1">
+                            <img src = "/image/binhamvoirong110-20l.jpg" title="Tear Cap Faucet" alt = "watch">
+                        </div>
+                        <div class = "hover-container-1">
+                            <div><img src = "/image/binhamvoirong110-20l.jpg" title="Wide Faucet 20l"></div>
+                            <div><img src = "/image/binhamvoirong110-21l.jpg" title="Wide Faucet 21l"></div>
+                        </div>
+                    </div>
+                    <div class = "product-div-right">
+                        <span class = "product-name">Wide Faucet</span>
+                        <span class = "product-price">2000đ <span class="discount">6.000đ<sup>discount</sup></span></span>
+                        <span>
+                            <select>
+                                <option value="">---Size---</option>
+                                <option value="Wide Faucet 20l">Wide Faucet 20l</option>
+                                <option value="Wide Faucet 21l">Wide Faucet 21l</option>
+                            </select>
+                        </span>
+                        <div class = "product-rating">
+                            <div class="product-star">
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star"></i></span>
+                                <span><i class = "fas fa-star-half-alt"></i></span>
+                            </div>
+                            <span>(950 ratings)</span>
+                        </div>
+                        <p class = "product-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates iusto incidunt ipsum id voluptatibus maiores rem molestiae eum asperiores ut repellat hic ullam accusamus vitae, commodi magni blanditiis rerum.
+                            Aliquam dolores laudantium in ex saepe maiores cum vero deserunt? Excepturi beatae deleniti, explicabo ipsum eum quia dignissimos corporis voluptate neque maiores enim mollitia labore nostrum rerum non recusandae culpa.
+                        </p>
+                        <div class = "btn-groups">
+                            <button type = "button" class = "add-cart-btn">Read More</button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <hr>
+        <div class="container" style="padding:30px;">
+          <div class="row">
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li>PETBot company, are one of the eminent business entities engaged in manufacturing, supplying and exporting a wide range of PET/PP/PC Bottles.</li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Category</h4>
+              <ul>
+                <li><a href="#">Introduce</a></li>
+                <li><a href="#">Terms of use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Sales policy</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Main Product</h4>
+              <ul>
+                <li><a href="#">Plastic Bottle</a></li>
+                <li><a href="#">PET Bottle</a></li>
+                <!-- update -->
+              </ul>
+            </div>
+      
+            <div class="footer-col">
+              <h4>Follow Us</h4>
+              <ul>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+      
+            </div>
+            <div class="footer-col">
+              <h4>Contact Us</h4>
+              <ul>
+                <li>Address:</li>
+                <li>Phone:</li>
+                <li>Email: <a href="mailto:PETBot@gmail.com">PETBot@gmail.com</a></p></li>
+                <li><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62714.502970373076!2d106.65451278717275!3d10.760939409595059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1668841042563!5m2!1svi!2s" width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </li>            
+              </ul>
+            </div>
+            
+      
+          </div>
+        </div>
+        <div style="text-align:center;font-size:15px;color:white;">Copyright &#169; 2022. PETBOT Company. All right reserved.</div>
+      </footer>
+
+
+    <script src= "/index.js"></script>
+    <script src = "script.js"></script>
+    
+</body>
+</html>

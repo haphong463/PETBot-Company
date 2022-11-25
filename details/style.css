@@ -354,9 +354,6 @@ img{
 }
 .hover-container-1{
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     margin-top: 32px;
 }
 .hover-container-1 div{
@@ -375,7 +372,7 @@ img{
     border-color: var(--main-color);
 }
 .hover-container-1 div img{
-    width: 50px;
+    width: 100%;
     cursor: pointer;
 }
 .product-div-right span{
@@ -391,7 +388,8 @@ img{
     letter-spacing: 1px;
     opacity: 0.9;
     color:bisque;
-    border-bottom: 1px solid orange;
+    border-bottom: 1px solid bisque;
+    
     
     
 }
@@ -423,6 +421,7 @@ img{
     margin-top: 22px;
     font-size:15px;
 }
+
 .btn-groups{
     margin-top: 22px;
 }
@@ -495,7 +494,11 @@ img{
   cursor:pointer;
 }
 
-
+.product-div-right .select-color{
+  margin: 5px 0;
+  font-size:25px;
+  border-bottom: 1px solid ;
+}
 
 
 

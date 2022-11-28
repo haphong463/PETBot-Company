@@ -388,8 +388,6 @@ table{
   margin-right:Auto;  
 }
 
-
-
 .products .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -466,7 +464,7 @@ table{
 
 section{
   padding:2rem 7%;
-  margin-top: 350px;
+  margin-top: 300px;
 }
 
 td{
@@ -574,6 +572,47 @@ hr{
   }
 
 }
+
+.contact-us{
+  text-align:center;
+  justify-content: center;
+}
+.contact-us h2{
+  color:White;
+  font-size:62px;
+}
+
+
+
+
+.contact-us input[type=email]{
+  width:30%;
+  height:6vh;
+  border-radius: 999px;
+  font-size:20px;
+  margin-bottom:10px;
+  outline:none; border:none;
+  color:white;
+  background-color:black;
+}
+
+.contact-us input[type=submit]{
+  width:50px;
+  height:50px;
+  border-radius:999px;
+  color:white;
+  background-color:black;
+  outline:none;
+}
+
+.contact-us input[type=submit]:hover{
+  background-color:white;
+  color:black;
+  transition: 0.7s;
+  cursor:pointer;
+  
+}
+
 
 
 .container{

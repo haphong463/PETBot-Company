@@ -694,16 +694,24 @@ hr{
 
 
 /*responsive*/
-@media(max-width: 767px){
+@media(max-width: 700px){
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
 }
 }
-@media(max-width: 574px){
+@media(max-width: 500px){
   .footer-col{
     width: 100%;
 }
+}
+
+.copy{
+  color:White;
+  text-align:center;
+  background-color: black;
+  font-size:15px;
+  padding:5px;
 }
 
 

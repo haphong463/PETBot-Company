@@ -74,3 +74,11 @@
   .btn{
     text-transform: capitalize;
   }
+  .copy{
+    color:White;
+    text-align:center;
+    background-color: black;
+    font-size:15px;
+    padding:5px;
+  }
+  

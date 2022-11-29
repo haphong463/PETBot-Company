@@ -321,6 +321,7 @@
   
   .products .box-container .box .image img{
       height: 25rem;
+      border-radius: 25px;
   }
   
   .products .box-container .box .content_products h3{

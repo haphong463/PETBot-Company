@@ -45,7 +45,7 @@ body{
   color:#fff;
   text-transform: uppercase;
   padding-bottom: 3.5rem;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .heading span{
@@ -270,9 +270,10 @@ body{
 }
 .about-text h2{
 	color: white;
-	font-size: 75px;
+	font-size: 35px;
 	text-transform: capitalize;
 	margin-bottom: 20px;
+  color:var(--main-color)
 }
 .about-text p{
 	letter-spacing: 1px;
@@ -327,7 +328,6 @@ button:hover{
 }
 span{
 	color: chocolate;
-  font-size:35px;
 }
 
 
@@ -420,6 +420,7 @@ table{
 
 .products .box-container .box .image img{
     height: 25rem;
+    border-radius: 25px;
 }
 
 
@@ -472,7 +473,7 @@ td{
 }
 
 .define table tr td p, .define table tr td p span{
-  font-size:15px;
+  font-size:20px;
 }
 .define table tr td p{
   color:var(--text-color);
@@ -582,8 +583,11 @@ hr{
   font-size:62px;
 }
 
-
-
+.contact-us p{
+  color:white;
+  font-size:15px;
+  margin: 20px 0;
+}
 
 .contact-us input[type=email]{
   width:30%;
@@ -594,6 +598,7 @@ hr{
   outline:none; border:none;
   color:white;
   background-color:black;
+  padding: 0 20px;  
 }
 
 .contact-us input[type=submit]{

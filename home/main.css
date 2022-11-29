@@ -326,63 +326,11 @@ button:hover{
   font-size:20px;
 
 }
+
 span{
 	color: chocolate;
 }
 
-
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
-
-/* Caption text */
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
 table{
   margin-left:auto;
   margin-right:Auto;  
@@ -480,6 +428,7 @@ td{
 }
 .question{
   margin-left:15px;
+
 }
 
 .menu_question
@@ -487,12 +436,12 @@ td{
   padding: 60px 10px;
 }
 .menu_question a{
-  font-size:20px;
+  font-size:2.5rem;
   color: var(--main-color);
   cursor: pointer;
 }
 .menu_question ul li{
-  font-size:15px;
+  font-size:1.8rem;
   color:var(--text-color);
 }
 hr{

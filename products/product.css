@@ -260,21 +260,7 @@
     
   }
 
-  button{
-      background-color: chocolate;
-      color: white;
-      text-decoration: none;
-      border: 2px solid transparent;
-      font-weight: bold;
-      padding: 13px 30px;
-      border-radius: 30px;
-      transition: .4s; 
-  }
-  button:hover{
-      background-color: transparent;
-      border: 2px solid chocolate;
-      cursor: pointer;
-  }
+ 
   
   /* for media */
   
@@ -365,29 +351,8 @@
     margin: 100px 0;
   }
   
-  td{
-    width:50%;
-  }
+
   
-  .define table tr td p, .define table tr td p span{
-    font-size:15px;
-  }
-  .define table tr td p{
-    color:var(--text-color);
-  }
-  .question{
-    margin-left:15px;
-  }
-  
-  .menu_question a{
-    font-size:20px;
-    color: var(--main-color);
-    cursor: pointer;
-  }
-  .menu_question ul li{
-    font-size:15px;
-    color:var(--text-color);
-  }
   
   
   /* for media */

@@ -278,31 +278,7 @@
     margin: 100px 0;
   }
   
-  td{
-    width:50%;
-  }
-  
-  .define table tr td p, .define table tr td p span{
-    font-size:15px;
-  }
-  .define table tr td p{
-    color:var(--text-color);
-  }
-  .question{
-    margin-left:15px;
-  }
-  .footer-col ul li{
-    font-size:15px;
-  }
-  .menu_question a{
-    font-size:20px;
-    color: var(--main-color);
-    cursor: pointer;
-  }
-  .menu_question ul li{
-    font-size:15px;
-    color:var(--text-color);
-  }
+ 
   
   
   /* for media */
@@ -453,8 +429,6 @@
   }
   }
 
-   
-
 
 .about .about-row{
     display: flex;
@@ -463,12 +437,14 @@
     flex-wrap: wrap;
 }
 
-.about .about-row .image{
+.about .about-row .about-image{
     flex:1 1 45rem;
+    padding:30px;
 }
 
-.about .about-row .image img{
+.about .about-row .about-image img{
     width: 100%;
+  
 }
 .about .about-row .about-content{
     flex:1 1 45rem;

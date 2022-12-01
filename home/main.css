@@ -10,7 +10,6 @@
   font-family: 'Poppins', sans-serif;
   margin:0; padding:0;
   box-sizing: border-box;
-  
   text-decoration: none;
   transition: .2s linear;
   list-style: none;
@@ -298,7 +297,7 @@ button:hover{
 	cursor: pointer;
 }
 
-/* for media */
+
 
 
 /* start content */
@@ -328,7 +327,7 @@ button:hover{
 }
 
 span{
-	color: chocolate;
+	color: var(--main-color);
 }
 
 table{

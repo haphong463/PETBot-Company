@@ -449,6 +449,7 @@ transform: rotate(45deg);
 
 .title{
 color: var(--light-color);
+text-transform: uppercase;
 }
 
 .article-title{
@@ -461,16 +462,7 @@ font-size: 3rem;
 margin-bottom: 6rem;
 }
 
-.section-title::after{
-content: attr(data-name);
-font-size: var(--font-size-lg);
-text-transform: uppercase;
-opacity: .1;
-position: absolute;
-top: 1.5rem;
-left: 2rem;
-  
-}
+
 
 
 
@@ -499,6 +491,7 @@ background-color: transparent;
 
 .older-posts-grid-wrapper .article-title{
 margin-bottom: var(--margin-sm);
+
 }
 
 .article-description{
@@ -605,7 +598,7 @@ hr{
 }
 .products .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap:1.5rem;
 }
 

@@ -449,11 +449,11 @@ transform: rotate(45deg);
 
 .title{
 color: var(--light-color);
-text-transform: uppercase;
+
 }
 
 .article-title{
-font-size: 2rem;
+font-size: 1.6rem;
 }
 
 .section-title{
@@ -496,7 +496,7 @@ margin-bottom: var(--margin-sm);
 
 .article-description{
   color:white;
-  font-size:1.3rem;
+  font-size:1rem;
 }
 
 .see-more-container{
@@ -589,7 +589,6 @@ hr{
   padding:1rem 0;
   line-height: 1.8;
 }
-
 
 
 /* -------------------ALSO LIKE---------------------- */

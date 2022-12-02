@@ -420,7 +420,7 @@ td{
 }
 
 .define table tr td p, .define table tr td p span{
-  font-size:20px;
+  font-size:1.5rem;
 }
 .define table tr td p{
   color:var(--text-color);
@@ -440,8 +440,9 @@ td{
   cursor: pointer;
 }
 .menu_question ul li{
-  font-size:1.8rem;
+  font-size:1.5rem;
   color:var(--text-color);
+  margin: 10px 10px;
 }
 hr{
   width:100%;

@@ -42,7 +42,7 @@ body{
       background: var(--bg);
     }
     .header{
-        background-image:url(/image/banner.png);
+        background-image:url(image/banner.png);
         display: flex;
         align-items: center;
         justify-content: space-between;

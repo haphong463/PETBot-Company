@@ -475,6 +475,7 @@ img{
   display:flex;
   text-decoration: line-through;
   color:orange;
+  
 }
 .product-price .discount sup{
   color:white;

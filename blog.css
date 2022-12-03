@@ -82,7 +82,7 @@
   }
   
   .header{
-    background:url(/image/banner.png);
+    background:url(image/banner.png);
     display: flex;
     align-items: center;
     justify-content: space-between;

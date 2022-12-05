@@ -596,7 +596,7 @@ hr{
 }
 
 .about h4{
-  color:#e91e63;
+  color:red;
   font-size:2.5rem;
 }
 
@@ -605,6 +605,10 @@ hr{
   color:red;
 }
 .about h5{
+  font-size:1.85rem;
+  color:chocolate;
+}
+.about h6{
   font-size:1.7rem;
   color:var(--main-color);
 }

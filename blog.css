@@ -556,6 +556,7 @@ hr{
   align-items: center;
   background:var(--black);
   flex-wrap: wrap;
+  margin: 10px 70px;
 }
 
 .about .about-row .about-image{
@@ -568,6 +569,10 @@ hr{
   font-size:15px;
 
 } 
+
+.about .image{
+  text-align:center;
+}
 
 .about .about-row .about-image img{
   width: 75%;
@@ -589,6 +594,22 @@ hr{
   padding:1rem 0;
   line-height: 1.8;
 }
+
+.about h4{
+  color:#e91e63;
+  font-size:2.5rem;
+}
+
+.about p h4{
+  font-size:2rem;
+  color:red;
+}
+.about h5{
+  font-size:1.7rem;
+  color:var(--main-color);
+}
+
+
 
 
 /* -------------------ALSO LIKE---------------------- */

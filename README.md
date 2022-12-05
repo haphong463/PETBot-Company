@@ -1,7 +1,7 @@
 PETBot Company
 eProject-2022 Batch no: T1.2208.A2
 
-Project title: <span style="color:Red">PETBot Company</span>
+Project title: PETBot Company
 
 ========> Group 03 <=========
 

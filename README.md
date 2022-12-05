@@ -7,10 +7,11 @@ Project title: PETBot Company
 
 3 collaborators:
 
-Student1409675  Hà Thanh Phong
-Student1408003  Diệp Cẩm Ly
-Student1409129  Trương Ngọc Tức
-Student1408025  Vương Yến Nhi
+Student1409675  Hà Thanh Phong <br>
+Student1408003  Diệp Cẩm Ly <br>
+Student1409129  Trương Ngọc Tức <br>
+Student1408025  Vương Yến Nhi <br>
+
 ============================
 
 eProject documentation at https://github.com/haphong463/PETBot-Company/tree/main/document

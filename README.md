@@ -7,7 +7,7 @@ Project title: PETBot Company
 
 3 collaborators:
 
-Student1409675  Hà Thanh Phong
+Student1409675  Hà Thanh Phong <br>
 Student1408003  Diệp Cẩm Ly
 Student1409129  Trương Ngọc Tức
 Student1408025  Vương Yến Nhi

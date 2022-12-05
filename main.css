@@ -396,16 +396,9 @@ table{
     color: var(--main-color);
 }
 
-.products .box-container .box .content_products .price{
-    color:#fff;
-    font-size: 2.5rem;
-}
 
-.products .box-container .box .content_products .price span{
-    text-decoration: line-through;
-    font-weight: lighter;
-    font-size: 1.5rem;
-}
+
+
 
 
 
@@ -505,13 +498,6 @@ hr{
       text-align: center;
   }
 
-  .home .content h3{
-      font-size: 4.5rem;
-  }
-
-  .home .content p{
-      font-size: 1.5rem;
-  }
 
 }
 
@@ -670,7 +656,7 @@ hr{
 
 
 .bg-image {
-
+  background-image: url(image/anh1.jpg);
 
   
   /* Add the blur effect */
@@ -701,7 +687,7 @@ hr{
 }
 
 .bg-text h1{
-  font-size:6rem;
+  font-size:5rem;
 }
 .bg-text p{
   font-size:2rem;

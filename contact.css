@@ -565,27 +565,15 @@
         border-top:1px solid chocolate;
         width: 100%;
       }
-      .total-price button{
+      
+      .total-price .btn{
         width:100%;
-        background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
-        padding: 15px 45px;
-        text-align: center;
-        text-transform: uppercase;
-        transition: 0.5s;
-        background-size: 200% auto;
-        color: white;            
-        box-shadow: 0 0 20px #eee;
-        font-size:2rem;
-        display: block;
-        border:none;
-        cursor:pointer;
-        border-radius:999px;
+        border-radius:0;
       }
-
-      .total-price button:hover {
-        background-position: right center; /* change the direction of the change here */
-        color: #fff;
-        text-decoration: none;
+      .total-price .btn:hover{
+        background-color:white;
+        color:var(--main-color);
+        transition: 0.5s;
       }
      
       .total-price table tr td{

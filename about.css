@@ -267,7 +267,7 @@
  
 
   span{
-      color:#23d5ab;
+      color:var(--main-color);
 
   }
   

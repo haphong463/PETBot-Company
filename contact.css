@@ -537,13 +537,54 @@
     
       }
       .total-price table{ 
-        border-top: 3px solid chocolate;
+        border: 3px solid chocolate;
         width:100%;
-        max-width:400px;
+        max-width:500px;
       }
       td:last-child{
         text-align:right;
       }
       th:last-child{
         text-align:right;
+      }
+
+      .cart-title h1{
+        font-size: 50px;
+  background: -webkit-linear-gradient(43deg, #3abb6b 0%, #C850C0 23%, chocolate 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom:1px solid chocolate;
+  margin-bottom:3rem;
+  width:25%
+      }
+
+      .total-price .subtotal{
+        border-top:1px solid chocolate;
+        width: 100%;
+      }
+      .total-price button{
+        width:100%;
+        background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        font-size:2rem;
+        display: block;
+        border:none;
+        cursor:pointer;
+        border-radius:999px;
+      }
+
+      .total-price button:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     
+      .total-price table tr td{
+        padding:15px;
       }

@@ -75,7 +75,7 @@
     justify-content: space-between;
     padding:1.5rem 7%;
     border-bottom: var(--border);
-    position: fixed;
+    position: sticky;
     top:0; left: 0; right: 0;
     z-index: 1000;
     text-transform: capitalize;
@@ -269,8 +269,7 @@
  
 
   span{
-      color: chocolate;
-    font-size:35px;
+      color: var(--main-color);
   }
   .products{
     background-color:#13131a;

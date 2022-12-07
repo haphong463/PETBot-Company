@@ -562,7 +562,7 @@ hr{
 }
 
 
-/* -----------------------BLOGS DETAIL------------------------- */
+/* -----------------------BLOGS DETAIL----------------------d--- */
 .about .about-row .about-content{
   flex:1 1 45rem;
   padding:10rem;
@@ -594,6 +594,10 @@ hr{
   padding:1rem 0;
   line-height: 1.8;
 
+}
+
+.about .about-row .about-content-detail .image{
+  text-align:center;
 }
 .about h4{
   color:red;

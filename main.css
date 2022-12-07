@@ -257,6 +257,10 @@ body{
   
 }
 
+.about{
+  margin-top:7%;
+}
+
 .about .about-row{
   display: flex;
   align-items: center;

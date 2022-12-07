@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" blog-content="IE=edge">
-    <meta name="viewport" blog-content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PETBot Company | Blogs</title>
+    
     <link rel="stylesheet" href="blog.css">
     <link rel="stylesheet" href="sticky.css">
     <!-- library -->
@@ -15,28 +16,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" href="image/logo.png">
-
 </head>
 <body>
     <!-- header -->
     <header class="header">
 
-        <a href="#" class="logo">
-            <img src="image/logo.png" alt="">
-        </a>
-      
-        <nav class="navbar">
-          <a href="index.html">home</a>
-          <a href="products.html">products</a>
-          <a href="aboutus.html">about us</a>
-          <a href="contactus.html">contact us</a>
-          <a href="feedback.html">feedback</a>
-          <a href="blogs.html">blogs</a>
-      </nav>
+      <a href="index.html" class="logo">
+          <img src="image/logo.png" alt="">
+      </a>
+    
+      <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="products.html">products</a>
+        <a href="aboutus.html">about us</a>
+        <a href="contactus.html">contact us</a>
+        <a href="feedback.html">feedback</a>
+        <a href="blogs.html">blogs</a>
+    </nav>
     
     <div class="icons">
         <div class="fas fa-search" id="search-btn"></div>
-        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-shopping-cart add-cart" id="cart-btn"></div>
         <a class="fas fa-user" id="user"></a>
         <div class="fas fa-bars" id="menu-btn"></div>
         
@@ -82,19 +82,21 @@
         </div>
         <a href="checkout.html" class="btn">checkout now</a>
     </div>
-    
+      
       <form action="" class="login-form" onsubmit="checkSub2()">
         <h3>login now</h3>
         <input type="email" placeholder="your email" class="box">
         <input type="password" placeholder="your password" class="box">
         <p>forget your password <a href="#">click here</a></p>
-        <p>don't have an account <a href="/register/register.html">create now</a></p>
+        <p>don't have an account <a href="register.html">create now</a></p>
         <input type="submit" value="login now" class="btn">
     </form>
     
     </header>
     
     <!-- header section ends -->
+
+    <!-- --------------ABOUT US----------------->
     <a href="#" class="icon-bar"><i class="bx bx-up-arrow-alt"></i></a>
 
     <div>
@@ -107,167 +109,187 @@
     </div>
     </div>
 
-    <div class="older-posts section">
+    <section class="about" id="about">
 
-      <div class="container_blog">
+      <div class="about-row">
+  
+         
+  
+          <div class="about-content">
+              <div class="older-posts section">
 
+                <div class="container_blog">
           
-
-          <div class="older-posts-grid-wrapper d-grid">
-            <!-- ---------------------------------------BLOG 1---------------------------------------- -->
-            <!-- ---------------------------------------BLOG 1---------------------------------------- -->
-            <!-- ---------------------------------------BLOG 1---------------------------------------- -->
-            <!-- ---------------------------------------BLOG 1---------------------------------------- -->
-              <a href="blog1.html" class="article d-grid">
-                  <div class="older-posts-article-image-wrapper">
-                      <img src="image/blog_title.jpg" alt="" class="article-image">
-                  </div>
-
-                  <div class="article-data-container">
-
-                      <div class="article-data">
-
-                          <span>16 Nov 2022</span>
-                          <span class="article-data-spacer"></span>
-
-                      </div>
-
-                      <h3 class="title article-title">Should you use plastic or glass bottles to store juice?</h3>
-                      <p class="article-description">Are you intending to buy a bottle to store juice for use in your family, company or business? Wondering whether to use plastic bottles or glass bottles? So let's go with Sai PET Bottle…</p>
-                      
-                  </div>
-              </a>
-
-            <!-- ---------------------------------------BLOG 2---------------------------------------- -->
-            <!-- ---------------------------------------BLOG 2---------------------------------------- -->
-            <!-- ---------------------------------------BLOG 2---------------------------------------- -->
-            <!-- ---------------------------------------BLOG 2---------------------------------------- -->
-              <a href="blog2.html" class="article d-grid">
-                <div class="older-posts-article-image-wrapper">
-                    <img src="image/chai-nhua-330ml-mieng-rong-than-vuong.jpg" alt="" class="article-image">
-                </div>
-
-                <div class="article-data-container">
-
-                    <div class="article-data">
-                        <span>23 Nov 2022</span>
-                        <span class="article-data-spacer"></span>
-                        
-                    </div>
-
-                    <h3 class="title article-title">Top favorite milk TEA wounds</h3>
-                    <p class="article-description">The world famous milk tea brands, which are popular with customers, are almost all converged in Vietnam. Because the Vietnamese market is extremely popular with this drink. Each brand has its own unique formula to make a competitive advantage and attract customers.</p>
                     
-                </div>
-                
-            </a>
-            <!-- ---------------------------------------BLOG 3---------------------------------------- -->
-            <!-- ---------------------------------------BLOG 3---------------------------------------- -->
-            <!-- ---------------------------------------BLOG 3---------------------------------------- -->
-            <!-- ---------------------------------------BLOG 3---------------------------------------- -->
-              <a href="blog3.html" class="article d-grid">
-                  <div class="older-posts-article-image-wrapper">
-                      <img src="image/bl1.avif" alt="" class="article-image">
-                  </div>
-
-                  <div class="article-data-container">
-
-                      <div class="article-data">
-                          <span>17 Nov 2022</span>
-                          <span class="article-data-spacer"></span>
+          
+                    <div class="older-posts-grid-wrapper d-grid">
+                      <!-- ---------------------------------------BLOG 1---------------------------------------- -->
+                      <!-- ---------------------------------------BLOG 1---------------------------------------- -->
+                      <!-- ---------------------------------------BLOG 1---------------------------------------- -->
+                      <!-- ---------------------------------------BLOG 1---------------------------------------- -->
+                        <a href="blog1.html" class="article d-grid">
+                            <div class="older-posts-article-image-wrapper">
+                                <img src="image/blog_title.jpg" alt="" class="article-image">
+                            </div>
+          
+                            <div class="article-data-container">
+          
+                                <div class="article-data">
+          
+                                    <span>16 Nov 2022</span>
+                                    <span class="article-data-spacer"></span>
+          
+                                </div>
+          
+                                <h3 class="title article-title">Should you use plastic or glass bottles to store juice?</h3>
+                                <p class="article-description">Are you intending to buy a bottle to store juice for use in your family, company or business? Wondering whether to use plastic bottles or glass bottles? So let's go with Sai PET Bottle…</p>
+                                
+                            </div>
+                        </a>
+          
+                      <!-- ---------------------------------------BLOG 2---------------------------------------- -->
+                      <!-- ---------------------------------------BLOG 2---------------------------------------- -->
+                      <!-- ---------------------------------------BLOG 2---------------------------------------- -->
+                      <!-- ---------------------------------------BLOG 2---------------------------------------- -->
+                        <a href="blog2.html" class="article d-grid">
+                          <div class="older-posts-article-image-wrapper">
+                              <img src="image/chai-nhua-330ml-mieng-rong-than-vuong.jpg" alt="" class="article-image">
+                          </div>
+          
+                          <div class="article-data-container">
+          
+                              <div class="article-data">
+                                  <span>23 Nov 2022</span>
+                                  <span class="article-data-spacer"></span>
+                                  
+                              </div>
+          
+                              <h3 class="title article-title">Top favorite milk TEA wounds</h3>
+                              <p class="article-description">The world famous milk tea brands, which are popular with customers, are almost all converged in Vietnam. Because the Vietnamese market is extremely popular with this drink. Each brand has its own unique formula to make a competitive advantage and attract customers.</p>
+                              
+                          </div>
                           
-                      </div>
-
-                      <h3 class="title article-title">Use bottles wisely</h3>
-                      <p class="article-description">Plastic bottles, mineral water bottles ... after using, you often throw them away without thinking that they can be used to recycle plastic bottles into toys for children, recycle plastic bottles into pen boxes... Toys Unique and creative made from plastic bottles will be extremely impressive and attractive to children. Let's explore 6 ways to recycle plastic bottles into toys in the article below!</p>
-                  </div>
-              </a>
-
-              
-            <!-- ---------------------------------------BLOG 4---------------------------------------- -->
-            <!-- ---------------------------------------BLOG 4---------------------------------------- -->
-            <!-- ---------------------------------------BLOG 4---------------------------------------- -->
-            <!-- ---------------------------------------BLOG 4---------------------------------------- -->
-              <a href="blog4.html" class="article d-grid">
-                  <div class="older-posts-article-image-wrapper">
-                      <img src="image/chai-vuông-dẹp-8-cạnh.png" alt="" class="article-image">
+                      </a>
+                      <!-- ---------------------------------------BLOG 3---------------------------------------- -->
+                      <!-- ---------------------------------------BLOG 3---------------------------------------- -->
+                      <!-- ---------------------------------------BLOG 3---------------------------------------- -->
+                      <!-- ---------------------------------------BLOG 3---------------------------------------- -->
+                        <a href="blog3.html" class="article d-grid">
+                            <div class="older-posts-article-image-wrapper">
+                                <img src="image/bl1.avif" alt="" class="article-image">
+                            </div>
+          
+                            <div class="article-data-container">
+          
+                                <div class="article-data">
+                                    <span>17 Nov 2022</span>
+                                    <span class="article-data-spacer"></span>
+                                    
+                                </div>
+          
+                                <h3 class="title article-title">Use bottles wisely</h3>
+                                <p class="article-description" >Plastic bottles, mineral water bottles ... after using, you often throw them away without thinking that they can be used to recycle plastic bottles into toys for children, recycle plastic bottles into pen boxes... Toys Unique and creative made from plastic bottles will be extremely impressive and attractive to children. Let's explore 6 ways to recycle plastic bottles into toys in the article below!</p>
+                            </div>
+                        </a>
+          
+                        
+                      <!-- ---------------------------------------BLOG 4---------------------------------------- -->
+                      <!-- ---------------------------------------BLOG 4---------------------------------------- -->
+                      <!-- ---------------------------------------BLOG 4---------------------------------------- -->
+                      <!-- ---------------------------------------BLOG 4---------------------------------------- -->
+                        <a href="blog4.html" class="article d-grid">
+                            <div class="older-posts-article-image-wrapper">
+                                <img src="image/chai-vuông-dẹp-8-cạnh.png" alt="" class="article-image">
+                              </div>
+          
+                            <div class="article-data-container">
+          
+                                <div class="article-data">
+                                    <span>30 Nov 2022</span>
+                                    <span class="article-data-spacer"></span>
+                                    <span>154 view</span>
+                                </div>
+          
+                                <h3 class="title article-title">Top most beautiful and hottest plastic milk tea bottles on the market</h3>
+                                <p class="article-description">Currently, PET bottles have been widely applied and become familiar items in our daily lives. With modern manufacturing process on line, streamlined and diversified design.</p>
+          
+                            </div>
+                        </a>
+                                    <!-- ---------------------------------------BLOG 5---------------------------------------- -->
+                                    <!-- ---------------------------------------BLOG 5---------------------------------------- -->
+                                    <!-- ---------------------------------------BLOG 5---------------------------------------- -->
+                                    <!-- ---------------------------------------BLOG 5---------------------------------------- -->
+          
+                        <a href="blog5.html" class="article d-grid">
+                            <div class="older-posts-article-image-wrapper">
+                                <img src="image/chai-nhua-PET-mieng-rong500ml.jpg" alt="" class="article-image">
+                            </div>
+          
+                            <div class="article-data-container">
+          
+                                <div class="article-data">
+                                    <span>10 Dec 2022</span>
+                                    <span class="article-data-spacer"></span>
+                                    
+                                </div>
+          
+                                <h3 class="title article-title"></h3>
+                                <p class="article-description"></p>
+          
+                            </div>
+                        </a>
+          
+          
+          
+                        <!-- ---------------------------------------BLOG 6---------------------------------------- -->
+                        <!-- ---------------------------------------BLOG 6---------------------------------------- -->
+                        <!-- ---------------------------------------BLOG 6---------------------------------------- -->
+                        <!-- ---------------------------------------BLOG 6---------------------------------------- -->
+                        <a href="blog6.html" class="article d-grid">
+                            <div class="older-posts-article-image-wrapper">
+                                <img src="image/chai-nhua-mieng-hep-PP-1000ml.jpg" alt="" class="article-image">
+                            </div>
+          
+                            <div class="article-data-container">
+          
+                                <div class="article-data">
+                                    <span>25 Dec 2022</span>
+                                    <span class="article-data-spacer"></span>
+                                    
+                                </div>
+          
+                                <h3 class="title article-title">PP Bottle 1000ml</h3>
+                                <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+          
+                            </div>
+                        </a>
+          
+                        
+          
                     </div>
-
-                  <div class="article-data-container">
-
-                      <div class="article-data">
-                          <span>30 Nov 2022</span>
-                          <span class="article-data-spacer"></span>
-                          <span>154 view</span>
-                      </div>
-
-                      <h3 class="title article-title">Top most beautiful and hottest plastic milk tea bottles on the market</h3>
-                      <p class="article-description">Currently, PET bottles have been widely applied and become familiar items in our daily lives. With modern manufacturing process on line, streamlined and diversified design.</p>
-
-                  </div>
-              </a>
-                          <!-- ---------------------------------------BLOG 5---------------------------------------- -->
-                          <!-- ---------------------------------------BLOG 5---------------------------------------- -->
-                          <!-- ---------------------------------------BLOG 5---------------------------------------- -->
-                          <!-- ---------------------------------------BLOG 5---------------------------------------- -->
-
-              <a href="blog5.html" class="article d-grid">
-                  <div class="older-posts-article-image-wrapper">
-                      <img src="image/chai-nhua-PET-mieng-rong500ml.jpg" alt="" class="article-image">
-                  </div>
-
-                  <div class="article-data-container">
-
-                      <div class="article-data">
-                          <span>10 Dec 2022</span>
-                          <span class="article-data-spacer"></span>
-                          
-                      </div>
-
-                      <h3 class="title article-title"></h3>
-                      <p class="article-description"></p>
-
-                  </div>
-              </a>
-
-
-
-              <!-- ---------------------------------------BLOG 6---------------------------------------- -->
-              <!-- ---------------------------------------BLOG 6---------------------------------------- -->
-              <!-- ---------------------------------------BLOG 6---------------------------------------- -->
-              <!-- ---------------------------------------BLOG 6---------------------------------------- -->
-              <a href="blog6.html" class="article d-grid">
-                  <div class="older-posts-article-image-wrapper">
-                      <img src="image/chai-nhua-mieng-hep-PP-1000ml.jpg" alt="" class="article-image">
-                  </div>
-
-                  <div class="article-data-container">
-
-                      <div class="article-data">
-                          <span>25 Dec 2022</span>
-                          <span class="article-data-spacer"></span>
-                          
-                      </div>
-
-                      <h3 class="title article-title">PP Bottle 1000ml</h3>
-                      <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
-
-                  </div>
-              </a>
-
+          
+                    <div class="see-more-container">
+                        <a href="#" class="see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></a>
+                    </div>
+          
+                </div>
+          
+              </div>
               
-
           </div>
-
-          <div class="see-more-container">
-              <a href="#" class="see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></a>
-          </div>
-
+  
       </div>
 
-    </div>
+  </section>
+  
+  
+
+
+
+
+  
     
-   <!-- footer -->
+    <!-- --------------------------FOOTER------------------------------ -->
 <footer class="footer">
   <hr>
   <div class="container" style="padding:30px;">
@@ -322,7 +344,9 @@
 
     </div>
   </div>
+
 </footer>
+    
 <div class="copy">Copyright &#169; 2022. PETBOT Company. All right reserved.</div>
     
     
@@ -334,10 +358,7 @@
     
     
     
-    
-    <!-- custom js file link  -->
+    <!-- --------------------------------LINK JAVASCRIPT----------------------------------- -->
     <script src="index.js"></script>
 </body>
 </html>
-
-

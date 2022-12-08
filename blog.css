@@ -358,6 +358,10 @@ span{
     .about-content-detail img{
       width:100%;
     }
+    
+    .about-content-detail{
+      margin:auto !important;
+    }
 
     iframe{
       width:100%;
@@ -385,7 +389,7 @@ span{
 
 /* Light theme color hover styles */
 .container_blog{
-  max-width: 160rem;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -553,7 +557,7 @@ transform: translateX(.5rem);
 
 @media screen and (min-width: 1200px) {
 .older-posts-grid-wrapper{
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
 }
 }
 
@@ -564,6 +568,7 @@ hr{
 
 
 /* -----------------------BLOGS DETAIL----------------------d--- */
+
 .about .about-row .about-content{
   flex:1 1 45rem;
   padding:10rem;
@@ -584,13 +589,18 @@ hr{
 
 }
 
+.about .about-row .about-content-detail{
+  margin-left:25%;
+  margin-right:25%;
+}
+
 .about .about-row .about-content-detail h3{
   font-size: 2.5rem;
   color:var(--main-color);
 }
 
 .about .about-row .about-content-detail p{
-  font-size:1.8rem;
+  font-size:1.5rem;
   color:#ccc;
   padding:1rem 0;
   line-height: 1.8;
@@ -622,7 +632,7 @@ hr{
 
 
 .blog_title1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(image/blog_title.jpg);
+  background-image: url(image/blog_title.jpg);
   background-size:cover;
   background-position: center;
   width:100%;
@@ -631,7 +641,7 @@ hr{
 } 
 
 .blog_title2{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(image/chai-nhua-330ml-mieng-rong-than-vuong.jpg);
+  background-image: url(image/chai-nhua-330ml-mieng-rong-than-vuong.jpg);
   background-size:cover;
   background-position: center;
   width:100%;
@@ -639,7 +649,7 @@ hr{
 }
 
 .blog_title3{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(image/bl1.avif);
+  background-image:   url(image/bl1.avif);
   background-size:cover;
   background-position: center;  
   width:100%;
@@ -647,15 +657,28 @@ hr{
 }
 
 .blog_title4{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(image/chai-vuông-dẹp-8-cạnh.png);
+  background-image: url(image/chai-vuông-dẹp-8-cạnh.png);
   background-size:cover;
   background-position: center;
   width:100%;
   height:65vh;
 }
 
+.blog_title5{
+  background-image: url(image/blog2.jpg);
+  background-size:cover;
+  background-position: center;
+  width:100%;
+  height:65vh;
+}
 
-
+.blog_title6{
+  background-image: url(image/blog3.jpg);
+  background-size:cover;
+  background-position: center;
+  width:100%;
+  height:65vh;
+}
 /* -------------------ALSO LIKE---------------------- */
 .products{
   background-color:#13131a;

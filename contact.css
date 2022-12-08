@@ -402,6 +402,9 @@
         .total-price, .coupon{
           display:contents !important;
         }
+        .cart-title h1{
+          width:100%;
+        }
       }
       
       
@@ -559,7 +562,7 @@
   -webkit-text-fill-color: transparent;
   border-bottom:1px solid chocolate;
   margin-bottom:3rem;
-  width:25%
+
       }
 
       .total-price .subtotal{

@@ -399,8 +399,9 @@
         html{
             font-size: 50%;
         }
-        
-      
+        .total-price, .coupon{
+          display:contents !important;
+        }
       }
       
       

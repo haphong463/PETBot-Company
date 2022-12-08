@@ -254,17 +254,16 @@ body{
   margin-right:25px;
   margin-left:10px;
   color: var(--text-color);
-  
 }
 
+
 .about{
-  margin-top:7%;
+  background-color:var(--black);
 }
 
 .about .about-row{
   display: flex;
   align-items: center;
-  background:var(--black);
   flex-wrap: wrap;
 }
 
@@ -576,7 +575,7 @@ hr{
 
 
 .container{
-	max-width: 1170px;
+	max-width: 1600px;
 	margin:auto;
 }
 .row{
@@ -627,7 +626,6 @@ hr{
 	text-decoration: none;
 	font-weight: 300;
 	color: #bbbbbb;
-	display: block;
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
@@ -651,6 +649,17 @@ hr{
 	background-color: #ffffff;
 }
 
+.footer-col .bx{
+  background-color: rgba(255,255,255,0.2);
+  height:40px;
+  width:40px;
+  text-align:center;
+  line-height:40px;
+  border:1px solid #333;
+  border-radius: 50%;
+  font-size:1.5rem;
+  margin-right:10px;
+}
 
 
 /*responsive*/
@@ -663,6 +672,7 @@ hr{
 @media(max-width: 500px){
   .footer-col{
     width: 100%;
+    margin-left: -30px;
 }
 }
 

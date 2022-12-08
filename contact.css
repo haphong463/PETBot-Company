@@ -540,7 +540,7 @@
     
       }
       .total-price table{ 
-        border: 3px solid chocolate;
+        border: 1px solid rgb(206, 205, 204);
         width:100%;
         max-width:500px;
       }
@@ -548,7 +548,7 @@
         text-align:right;
       }
       th:last-child{
-        text-align:right;
+        text-align:left;
       }
 
       .cart-title h1{
@@ -562,13 +562,15 @@
       }
 
       .total-price .subtotal{
-        border-top:1px solid chocolate;
+        border-top:1px solid rgb(180, 176, 173);
         width: 100%;
       }
       
       .total-price .btn{
-        width:100%;
+        width:60%;
+        float:right;
         border-radius:0;
+        font-size:14px;
       }
       .total-price .btn:hover{
         background-color:white;
@@ -578,4 +580,40 @@
      
       .total-price table tr td{
         padding:15px;
+      }
+
+      
+
+      .coupon{
+        float:left;
+        margin-left:7%;
+        width:30%;
+        border: 1px solid rgb(206, 205, 204);
+        display:flex;
+      }
+      .coupon input[type=text]{
+        width:50%;
+        height:4vh;
+        font-size:2vh;
+      }
+      
+      .coupon table tr td{
+        padding: 5px 20px 15px;
+        text-align:left;
+      }
+
+      .coupon button{
+        border: 1px solid #000;
+        color:white;
+        background: #000;
+        padding: 10px 10px;
+        cursor:pointer;  
+        width:40%;
+        font-size:1.8vh;
+      }
+
+      .coupon button:hover{
+        color:#000;
+        background:#f5f5f5;
+        transition: 0.7s;
       }

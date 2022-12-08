@@ -88,4 +88,17 @@ let toggle = button => {
   }
 
 
+function popup(){
+   document.getElementById("open-popup-btn").addEventListener("click", function(){
+      document.getElementsByClassName("popup")[0].classList.add("active");
+   })
+}
 
+function dismiss(){
+   document.getElementById("dismiss-popup-btn").addEventListener("click", function(){
+      document.getElementsByClassName("popup")[0].classList.remove("active");
+   })
+}
+
+
+ 

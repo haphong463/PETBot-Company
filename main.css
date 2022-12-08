@@ -356,7 +356,7 @@ table{
 
 .products .box-container .box{
     text-align: center;
-    border:var(--border);
+    border: var(--border);
     padding: 2rem;
 }
 
@@ -432,8 +432,10 @@ td{
 .define table tr td p, .define table tr td p span{
   font-size:2.11rem;
 }
+
 .define table tr td p{
   color:var(--text-color);
+  padding:20px;
 }
 .question{
   margin-left:15px;

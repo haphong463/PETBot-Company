@@ -487,8 +487,13 @@ img{
         margin-bottom: 10px;
     }
 }
+
+@media (max-width:450px){
+  .product-price .discount{
+    text-align:center;
+  }
+}
 .product-price .discount{
-  display:flex;
   text-decoration: line-through;
   color:orange;
   

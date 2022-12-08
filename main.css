@@ -425,16 +425,16 @@ td{
 }
 
 .define h1{
-  font-size:4rem;
+  font-size:3rem;
 }
 
 .define table tr td p, .define table tr td p span{
-  font-size:2.11rem;
+  font-size:1.5rem;
 }
 
 .define table tr td p{
   color:var(--text-color);
-  padding:20px;
+  padding:10px;
 }
 .question{
   margin-left:15px;
@@ -443,16 +443,16 @@ td{
 
 .menu_question
 {
-  padding: 60px;
+  padding: 60px 10%;
 }
 
 .menu_question a{
-  font-size:3rem;
+  font-size:2.5rem;
   color: var(--main-color);
   cursor: pointer;
 }
 .menu_question ul li{
-  font-size:2.11rem;
+  font-size:1.7rem;
   color:var(--text-color);
   margin: 10px 10px;
 }
@@ -525,6 +525,10 @@ hr{
   html{
       font-size: 50%;
   }
+  .menu_question
+{
+  padding: 3%;
+}
 
 }
 

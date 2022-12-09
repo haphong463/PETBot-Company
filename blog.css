@@ -370,6 +370,9 @@ span{
       width:100%;
     }
     
+    .about .about-row .about-content-detail h4{
+      width:auto;
+    }
 
   }
   

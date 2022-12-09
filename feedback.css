@@ -489,7 +489,9 @@ hr{
   html{
       font-size: 50%;
   }
-
+  .contact img{
+    width:100%;
+  }
 }
 
 

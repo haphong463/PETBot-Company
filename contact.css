@@ -405,6 +405,9 @@
         .cart-title h1{
           width:100%;
         }
+        iframe{
+          height:40vh;
+        }
       }
       
       

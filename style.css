@@ -469,7 +469,7 @@ img{
         grid-template-columns: 100%;
     }
     .product-div-right{
-        text-align: center;
+        text-align: left;
     }
     .product-rating{
         justify-content: center;

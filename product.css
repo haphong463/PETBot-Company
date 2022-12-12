@@ -274,6 +274,11 @@
   .products{
     background-color:#13131a;
   }
+
+  .products .heading{
+    letter-spacing: 10px;
+  }
+
   .products .box-container{
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));

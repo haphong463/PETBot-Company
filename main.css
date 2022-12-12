@@ -469,7 +469,7 @@ input[type=radio]
 }
 
 .accordion .content-question{
-  color:#ccc;
+  color:#f5f5f5;
   padding:0 10px;
   line-height: 26px;
   max-height:0;
@@ -555,11 +555,10 @@ hr{
   html{
       font-size: 50%;
   }
-  .menu_question
-{
-  padding: 3%;
-}
-
+  .contact-us h2{
+    font-size:35px !important;
+  }
+  
 }
 
 .contact-us{

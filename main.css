@@ -47,11 +47,6 @@ body{
   font-size: 3rem;
 }
 
-.heading span{
-  color:var(--main-color);
-  text-transform: uppercase;
-}
-
 .btn{
   margin-top: 1rem;
   display: inline-block;
@@ -256,9 +251,8 @@ body{
   color: var(--text-color);
 }
 
-
 .about{
-  background-color:var(--black);
+  background: var(--black);
 }
 
 .about .about-row{
@@ -436,26 +430,62 @@ td{
   color:var(--text-color);
   padding:10px;
 }
-.question{
-  margin-left:15px;
 
+.accordion{
+  margin:60px auto;
+  width:100%;
 }
 
-.menu_question
+.accordion li{
+  width:100%;
+  margin:20px;
+  padding:10px;
+  border-radius: 8px;
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+              -6px -6px 10px -1px rgba(56, 56, 56, 0.7);
+  font-size: 1.5rem;
+  color: var(--main-color)
+}
+
+.accordion li label{
+  display:flex;
+  align-items: center;
+  padding: 10px;
+  font-size:18px;
+  font-weight:500;
+  cursor:pointer;
+}
+
+label::before{
+  content: '+';
+  margin-right:10px;
+  font-size:24px;
+  font-weight:600px;
+}
+
+input[type=radio]
 {
-  padding: 60px 10%;
+  display:none;
 }
 
-.menu_question a{
-  font-size:2.5rem;
-  color: var(--main-color);
-  cursor: pointer;
+.accordion .content-question{
+  color:#ccc;
+  padding:0 10px;
+  line-height: 26px;
+  max-height:0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
 }
-.menu_question ul li{
-  font-size:1.7rem;
-  color:var(--text-color);
-  margin: 10px 10px;
+
+.accordion input[type=radio]:checked + label + .content-question{
+  max-height:400px;
+  padding: 10px 10px 20px;
 }
+
+.accordion input[type=radio]:checked + label::before{
+  content: '-';
+}
+
 hr{
   width:100%;
   margin-bottom:30px;

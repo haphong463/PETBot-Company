@@ -28,7 +28,7 @@ function addProducts(title, price, product){
    var cartShopbox = document.createElement('div');
    cartShopbox.classList.add('cart-item');
    var cartItems = document.getElementsByClassName('cart-items-container')[0];
-   var cartItemsNames = cartItems.getElementsByClassName('cart-product');
+   var cartItemsNames = cartItems.getElementsByClassName('cart-content');
    for (var x = 0; x < cartItemsNames.length; x++){
       if(cartItemsNames[x].innerText == title){
          alert('You have already add this item to cart');

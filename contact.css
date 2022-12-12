@@ -408,6 +408,7 @@
         iframe{
           height:40vh;
         }
+
       }
       
       
@@ -585,6 +586,8 @@
         transition: 0.5s;
       }
      
+
+
       .total-price table tr td{
         padding:15px;
       }

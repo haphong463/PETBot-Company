@@ -1,3 +1,9 @@
+
+
+    body{
+        color:#ccc;
+    }
+
       .content-section {
           margin: 1em;
       }
@@ -11,34 +17,8 @@
           font-size: 2.5em;
       }
       
- 
-      .btn-header {
-          margin: .5em 15% 2em 15%;
-          color: white;
-          border: 2px solid #2D9CDB;
-          background-color: rgba(255, 255, 255, .1);
-          border-radius: 0;
-          font-size: 1.5em;
-          font-weight: lighter;
-          padding-left: 2em;
-          padding-right: 2em;
-      }
       
-      .btn-header:hover {
-          background-color: rgba(255, 255, 255, .3);
-      }
-      
-      .btn-play {
-          display: block;
-          margin: 0 auto;
-          color: #2D9CDB;
-          font-size: 4em;
-          border-radius: 50%;
-          width: 100px;
-          height: 100px;
-          padding: 0;
-          text-align: center;
-      }
+
       
       .btn-primary {
           color: white;
@@ -55,7 +35,7 @@
       .cart-header {
           font-weight: bold;
           font-size: 2rem;
-          color: #fff;
+          color: #ccc;
       }
       
       .cart-column {
@@ -78,7 +58,7 @@
       .cart-price {
           width: 20%;
           font-size: 2rem;
-          color: #fff;
+          color: #ccc;
       }
       
       .cart-quantity {
@@ -86,7 +66,7 @@
       }
       
       .cart-item-title {
-          color: #fff;
+          color: #ccc;
           margin-left: .5em;
           font-size: 1.5rem;
       }
@@ -100,7 +80,14 @@
       .btn-danger {
           color: white;
           border: none;
+          font-size:2rem;
           border-radius: 999px;
+      }
+
+      .btn-danger:hover{
+        color:#30bb7a;
+        background-color: #fff;
+        transition: 0.7s;
       }
     
       
@@ -113,7 +100,7 @@
           color: #333;
           padding: 0;
           text-align: center;
-          font-size: 1.2em;
+          font-size: 1.5rem;
           margin-right: 25px;
       }
       
@@ -132,15 +119,12 @@
       }
       
       .cart-total-title {
-          font-weight: bold;
           font-size: 2rem;
-          color: #fff;
           float:left;
 
       }
       
       .cart-total-price {
-          color: #fff;
           font-size: 2rem;
       }
       

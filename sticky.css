@@ -132,14 +132,16 @@
   .bg-text-blog h1{
     font-size:5rem;
     letter-spacing: 25px;
-    
-color: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 
   }
   
   .bg-text-blog small{
-    letter-spacing: 3px;
+    letter-spacing: 6px;
     font-size:15px;
+    
   }
 
   .banner_title{
